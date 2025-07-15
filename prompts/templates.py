@@ -1,0 +1,141 @@
+# === System Prompt ===
+def get_system_prompt(role: str = "fact_checker") -> str:
+    if role == "fact_checker":
+        return "You are a precise and critical fact checker."
+    elif role == "debater":
+        return "You are a critical thinker participating in a factual debate."
+    elif role == "judge":
+        return "You are a neutral judge who evaluates factual debates."
+    else:
+        return "You are a helpful assistant."
+
+def system_prompt_fact_checker():
+    return get_system_prompt("fact_checker")
+
+# === Single-Agent Fact-Checking ===
+def user_prompt_single_agent(claim: str, evidence: str) -> str:
+    """
+    User prompt template for single-agent fact verification.
+    Fills in the claim and retrieved evidence.
+    """
+    return f"""
+Given a claim and some retrieved evidence, determine whether the claim is TRUE, FALSE, or HALF-TRUE.
+
+Claim: {claim}
+
+Retrieved Evidence:
+{evidence}
+
+Answer format:
+[VERDICT]: TRUE / FALSE / HALF-TRUE  
+[REASON]: <your explanation>
+"""
+# === Multi-Agent Fact-Checking ===
+# === Opening Round ===
+def user_prompt_opening_pro(claim, evidence):
+    return f"""You support the following claim. Present your opening argument using the evidence.
+
+Claim: {claim}
+
+Evidence:
+{evidence}
+
+Begin your argument with your position. Highlight facts that support the claim as TRUE."""
+
+def user_prompt_opening_con(claim, evidence):
+    return f"""You oppose the following claim. Present your opening argument using the evidence.
+
+Claim: {claim}
+
+Evidence:
+{evidence}
+
+Begin your argument by explaining why the claim is FALSE or misleading, referencing specific points in the evidence."""
+
+
+# === Rebuttal Round ===
+def user_prompt_rebuttal_pro(claim, evidence, con_argument):
+    return f"""You are the supporting agent in a debate about the claim below. Your opponent has made an argument against the claim.
+
+Claim: {claim}
+
+Evidence:
+{evidence}
+
+Opponent's argument:
+{con_argument}
+
+Write your rebuttal, explaining why the opponent is wrong and defending the claim."""
+
+def user_prompt_rebuttal_con(claim, evidence, pro_argument):
+    return f"""You are the opposing agent in a debate about the claim below. Your opponent has made an argument supporting the claim.
+
+Claim: {claim}
+
+Evidence:
+{evidence}
+
+Opponent's argument:
+{pro_argument}
+
+Write your rebuttal, explaining why the opponent is incorrect and the claim is still FALSE or HALF-TRUE."""
+
+
+# === Closing Round ===
+def user_prompt_closing_pro(claim, evidence):
+    return f"""You are the supporting agent in a debate. Summarize your final position.
+
+Claim: {claim}
+
+Evidence:
+{evidence}
+
+Provide a closing statement reinforcing why the claim is TRUE."""
+
+def user_prompt_closing_con(claim, evidence):
+    return f"""You are the opposing agent in a debate. Summarize your final position.
+
+Claim: {claim}
+
+Evidence:
+{evidence}
+
+Provide a closing statement reinforcing why the claim is FALSE or HALF-TRUE."""
+
+
+# === Judge Prompt ===
+def user_prompt_judge_full(claim, evidence, pro_open, con_open, pro_rebut, con_rebut, pro_close, con_close):
+    return f"""You are a neutral judge evaluating a factual debate.
+
+Claim: {claim}
+
+Evidence:
+{evidence}
+
+--- Opening Statements ---
+Pro Agent:
+{pro_open}
+
+Con Agent:
+{con_open}
+
+--- Rebuttals ---
+Pro Agent:
+{pro_rebut}
+
+Con Agent:
+{con_rebut}
+
+--- Closing Statements ---
+Pro Agent:
+{pro_close}
+
+Con Agent:
+{con_close}
+
+Based on the arguments and evidence, decide whether the claim is TRUE, FALSE, or HALF-TRUE.
+
+Answer format:
+[VERDICT]: TRUE / FALSE / HALF-TRUE  
+[REASON]: <your justification>
+"""
