@@ -33,9 +33,9 @@ def evaluate_all(result_dict, gt_dict):
     return macro_precision, macro_recall, macro_f1
 
 import json
-with open("50_retrieved_evidence_map_bgebase.json") as f:
+with open("/home/yirui/mad/chroma/20_test_retrieved_evidence_evidence_bilingual_large.json") as f:
     result_dict = json.load(f)
-with open("evidence_map.json") as f:
+with open("/home/yirui/mad/chroma/evidence_map.json") as f:
     gt_dict = json.load(f)
 
 macro_precision, macro_recall, macro_f1 = evaluate_all(result_dict, gt_dict)

@@ -4,10 +4,10 @@ from tqdm import tqdm
 from chroma import ChromaClient
 
 # Load examples from file
-with open("/home/yirui/mad/dataset/test.json", "r") as f:
+with open("test.json", "r") as f:
     all_examples = json.load(f)
 
-chroma_client = ChromaClient(vector_name="evidence_bgebase")
+chroma_client = ChromaClient(vector_name="evidence_bilingual_large")
 
 # Global evidence counter
 global_evidence_id = 0
@@ -51,29 +51,29 @@ for example in tqdm(all_examples, desc="Processing examples"):
             evidence_text_to_id[sentence_norm] = evidence_id
             evidence_id_to_text[evidence_id] = sentence_norm
             global_evidence_id += 1
-            # chroma_client.add_document(
-            #     content=sentence,
-            #     metadata={
-            #         "evidence_id": evidence_id
-            #     }
-            # )
+            chroma_client.add_document(
+                content=sentence,
+                metadata={
+                    "evidence_id": evidence_id
+                }
+            )
         example_to_evidence_map[example_id].append(evidence_id)
 
-# Save mapping to JSON
-with open("evidence_map.json", "w") as f:
-    json.dump(example_to_evidence_map, f, indent=2)
+# # Save mapping to JSON
+# with open("./test/evidence_map.json", "w") as f:
+#     json.dump(example_to_evidence_map, f, indent=2)
 
-# Save evidence_text_to_id mapping to JSON
-with open("evidence_text_to_id.json", "w") as f:
-    json.dump(evidence_text_to_id, f, indent=2, ensure_ascii=False)
+# # Save evidence_text_to_id mapping to JSON
+# with open("./test/evidence_text_to_id.json", "w") as f:
+#     json.dump(evidence_text_to_id, f, indent=2, ensure_ascii=False)
 
-# Save evidence_id_to_text mapping to JSON
-with open("evidence_id_to_text.json", "w") as f:
-    json.dump(evidence_id_to_text, f, indent=2, ensure_ascii=False)
+# # Save evidence_id_to_text mapping to JSON
+# with open("./test/evidence_id_to_text.json", "w") as f:
+#     json.dump(evidence_id_to_text, f, indent=2, ensure_ascii=False)
 
-# Save example_to_claim mapping to JSON
-with open("example_to_claim.json", "w") as f:
-    json.dump(example_to_claim, f, indent=2, ensure_ascii=False)
+# # Save example_to_claim mapping to JSON
+# with open("./test/example_to_claim.json", "w") as f:
+#     json.dump(example_to_claim, f, indent=2, ensure_ascii=False)
 
 print(f"\nInserted {global_evidence_id} unique evidence sentences.")
 print("Saved mapping to evidence_map.json.")

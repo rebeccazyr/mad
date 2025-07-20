@@ -139,3 +139,40 @@ Answer format:
 [VERDICT]: TRUE / FALSE / HALF-TRUE  
 [REASON]: <your justification>
 """
+
+def user_prompt_intent_inference(claim):
+    return f"""A claim may be literally accurate but still misleading due to the message it implies.
+
+Your task is to infer the intended message or implied conclusion of the following claim.
+
+Claim: "{claim}"
+
+What is the intended conclusion of this claim?
+
+Respond with one clear and concise sentence."""
+
+def user_prompt_reformulate_pro(claim, intent):
+    return f"""You support the following claim and aim to reinforce its implied message.
+
+Claim: "{claim}"
+
+Inferred Intent: "{intent}"
+
+Your task is to reformulate the claim in a way that makes the implied conclusion more explicit and persuasive.
+
+Only output the reformulated claim directly, without any introductory phrases or explanations.
+
+Reformulated (Pro) Claim:"""
+
+def user_prompt_reformulate_con(claim, intent):
+    return f"""You oppose the following claim and aim to highlight any issues with its implied message.
+
+Claim: "{claim}"
+
+Inferred Intent: "{intent}"
+
+Your task is to reformulate the claim in a way that emphasizes its potential problems, uncertainties, or misleading assumptions.
+
+Only output the reformulated claim directly, without any introductory phrases or explanations.
+
+Reformulated (Con) Claim:"""

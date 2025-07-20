@@ -1,6 +1,6 @@
 from chroma import ChromaClient
 
-client = ChromaClient(vector_name="evidence")
+client = ChromaClient(vector_name="evidence_bgebase")
 data = client.collection.get()
 print("data length of chromadb", len(data['ids']))
 

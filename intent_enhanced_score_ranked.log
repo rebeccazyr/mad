@@ -1,0 +1,947 @@
+nohup: ignoring input
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.28s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.43s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.68s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.96s/it]
+Starting fresh
+Processing examples:   0%|          | 0/2000 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   0%|          | 1/2000 [00:08<4:58:33,  8.96s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   0%|          | 2/2000 [00:13<3:41:00,  6.64s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   0%|          | 3/2000 [00:17<2:57:40,  5.34s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   0%|          | 4/2000 [00:25<3:26:15,  6.20s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   0%|          | 5/2000 [00:31<3:24:25,  6.15s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   0%|          | 6/2000 [00:36<3:14:11,  5.84s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   0%|          | 7/2000 [00:42<3:14:58,  5.87s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   0%|          | 8/2000 [00:46<2:58:48,  5.39s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+
+[Original Claim]: "Gas prices were WAY higher in 2008, under REPUBLICAN president George W. Bush."
+[Inferred Intent]: The intended conclusion of this claim is that the current administration (presumably Democratic) is doing a better job on gas prices than the previous Republican administration.
+[Pro Reformulated Claim]: "Gas prices were significantly higher under Republican President George W. Bush in 2008, indicating that the current administration's efforts to address energy policy and stabilize the economy have been more effective in reducing fuel costs."
+[Con Reformulated Claim]: "Gas prices varied significantly during 2008, under Republican president George W. Bush, and it is unclear whether this fluctuation was solely due to his administration's policies or a combination of factors, including global economic conditions, global demand, and supply chain disruptions."
+Processed example 12994
+
+[Original Claim]: "So now if you don’t comply" and get a COVID-19 vaccination, and you’re on "Social Security or disability, you won’t be able to receive your money."
+[Inferred Intent]: The intended conclusion of this claim is that refusing to get a COVID-19 vaccination will result in the loss of Social Security or disability benefits.
+[Pro Reformulated Claim]: "Refusing to comply with COVID-19 vaccination requirements will result in the automatic suspension of Social Security and disability benefits, as mandated by federal regulations."
+[Con Reformulated Claim]: "Unless explicitly stated by the relevant authorities, there is no credible evidence to suggest that refusing a COVID-19 vaccination will automatically result in the loss of Social Security or disability benefits, and any claims to the contrary may be misleading or unfounded."
+Processed example 12995
+
+[Original Claim]: Desmond Tutu died on Oct. 20, 2021.
+[Inferred Intent]: The intended conclusion of this claim is that Desmond Tutu, the South African Anglican cleric and activist, has passed away.
+[Pro Reformulated Claim]: Desmond Tutu, the renowned South African Anglican cleric and anti-apartheid activist, has tragically passed away on October 20, 2021, leaving behind a lasting legacy of fighting for human rights and social justice.
+[Con Reformulated Claim]: "Desmond Tutu allegedly died on October 20, 2021, according to unverified sources."
+Processed example 12996
+
+[Original Claim]: Says N.C. Attorney General Josh Stein has gone after Jan. 6 protesters but he has "said nothing" about violent summer protests in North Carolina and was "derelict in his duty."
+[Inferred Intent]: The intended conclusion of this claim is that N.C. Attorney General Josh Stein is biased and failed to fulfill his duties by not addressing the violent summer protests in North Carolina, while taking action against Jan. 6 protesters.
+[Pro Reformulated Claim]: N.C. Attorney General Josh Stein's selective enforcement of justice, exemplified by his pursuit of Jan. 6 protesters while remaining silent on violent summer protests in North Carolina, demonstrates a clear bias and dereliction of duty, undermining public trust in his office.
+[Con Reformulated Claim]: "Attorney General Josh Stein's alleged inaction on violent summer protests in North Carolina is based on incomplete information, as there is no evidence of his office's involvement in investigating or prosecuting those incidents, and it is unclear if he has the authority to take action without sufficient evidence of criminal activity, whereas his actions against Jan. 6 protesters are based on federal charges and cooperation with federal authorities."
+Processed example 12997
+
+[Original Claim]: Cargo ships "can’t get into port" because of Donald Trump’s executive order 13959.
+[Inferred Intent]: The intended conclusion of this claim is that Donald Trump's executive order 13959 is the primary cause of cargo ships being unable to enter port, implying that the order is having a significant and negative impact on global trade and commerce.
+[Pro Reformulated Claim]: Cargo ships are being severely impacted by Donald Trump's executive order 13959, which has effectively blocked their entry into ports, thereby crippling global trade and commerce, and causing significant economic losses and disruptions.
+[Con Reformulated Claim]: "Cargo ships may be experiencing difficulties entering port due to a combination of factors, including global supply chain disruptions, pandemic-related restrictions, and logistical challenges, which may be exacerbated by the executive order 13959, but the exact cause and extent of the issue remain unclear and require further investigation."
+Processed example 12998
+
+[Original Claim]: The newly drawn congressional district map in Arkansas "keeps communities together."
+[Inferred Intent]: The intended conclusion of this claim is that the newly drawn congressional district map in Arkansas prioritizes preserving the geographic and social cohesion of communities, rather than fragmenting them across different districts.
+[Pro Reformulated Claim]: The newly drawn congressional district map in Arkansas prioritizes preserving the geographic and social cohesion of communities, ensuring that residents with shared interests, cultural backgrounds, and demographic characteristics are represented by a single, unified congressional voice.
+[Con Reformulated Claim]: "The newly drawn congressional district map in Arkansas may inadvertently create fragmented communities by prioritizing partisan gerrymandering over preserving traditional community boundaries."
+Processed example 12999
+
+[Original Claim]: We are seeing "the Justice Department treat American parents as domestic terrorists" under the Patriot Act.
+[Inferred Intent]: The intended conclusion of this claim is that the Justice Department is unfairly targeting and intimidating American parents, implying that they are being treated as domestic terrorists, which is a pejorative and emotive term.
+[Pro Reformulated Claim]: "We are witnessing a disturbing trend where the Justice Department is using the Patriot Act to unjustly label and stigmatize American parents as domestic terrorists, thereby silencing their voices and undermining their fundamental rights as citizens."
+[Con Reformulated Claim]: "We are seeing the Justice Department potentially overstepping its authority and potentially misapplying the Patriot Act to investigate and prosecute American parents, which may lead to unfair targeting and intimidation, but more evidence is needed to determine the extent and motivations behind these actions."
+Processed example 13000
+
+[Original Claim]: Democrats are "asking for a blank check book to spend as much as they want without worrying about the repercussions."
+[Inferred Intent]: The intended conclusion of this claim is that Democrats are irresponsible and reckless with public funds, prioritizing their own spending desires over fiscal responsibility and accountability.
+[Pro Reformulated Claim]: "Democrats are seeking unlimited authority to recklessly squander taxpayer dollars without regard for the devastating consequences on our national debt, economic stability, and future generations, thereby demonstrating a blatant disregard for fiscal responsibility and accountability."
+[Con Reformulated Claim]: "Are Democrats advocating for unlimited, unchecked spending without considering the potential consequences on the economy, national debt, and taxpayer burden, or is this a misrepresentation of their proposed policies and priorities?"
+Processed example 13001
+
+[Original Claim]: "NIH COVID Treatment Guidelines Approve Ivermectin"
+[Inferred Intent]: The intended conclusion of this claim is that the National Institutes of Health (NIH) has officially endorsed or recommended the use of ivermectin as a treatment for COVID-19.
+[Pro Reformulated Claim]: "The NIH COVID-19 Treatment Guidelines explicitly recommend the use of ivermectin as a treatment option for COVID-19, thereby officially endorsing its efficacy and safety in combating the virus."
+Processing examples:   0%|          | 9/2000 [00:52<3:01:00,  5.46s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   0%|          | 10/2000 [00:57<2:59:09,  5.40s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 11/2000 [01:03<2:59:32,  5.42s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 12/2000 [01:07<2:50:23,  5.14s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 13/2000 [01:14<3:02:19,  5.51s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 14/2000 [01:18<2:54:35,  5.27s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 15/2000 [01:24<2:56:44,  5.34s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 16/2000 [01:29<2:57:37,  5.37s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 17/2000 [01:35<3:03:27,  5.55s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+[Con Reformulated Claim]: "NIH COVID Treatment Guidelines Contain Limited and Preliminary Information on Ivermectin, Without Clear Recommendations or Endorsements for Its Use as a Treatment for COVID-19."
+Processed example 13002
+
+[Original Claim]: "We’ve created more jobs in the first eight months of my administration than any president in American history — total number of jobs created."
+[Inferred Intent]: The intended conclusion of this claim is that the president's economic policies have been highly effective in creating jobs, and they are the best in American history.
+[Pro Reformulated Claim]: "We've created more jobs in the first eight months of my administration than any president in American history, demonstrating the unparalleled success of our economic policies in stimulating job growth and revitalizing the economy."
+[Con Reformulated Claim]: "We've created more jobs in the first eight months of my administration than any president in American history, but this claim is based on a narrow time frame and may not account for the overall job market trends, and it's unclear whether these jobs are high-quality, full-time positions or temporary or part-time work."
+Processed example 13003
+
+[Original Claim]: "The Spanish High Court has announced (COVID-19) is a bio weapon with a patent, not a virus."
+[Inferred Intent]: The intended conclusion of this claim is that COVID-19 is not a natural virus, but rather a man-made bio weapon created and patented by the Spanish government or another entity.
+[Pro Reformulated Claim]: "The Spanish High Court has conclusively proven that COVID-19 is a bio weapon, specifically designed and patented by the Spanish government or another entity, and not a naturally occurring virus, thereby invalidating the prevailing narrative of a spontaneous outbreak."
+[Con Reformulated Claim]: "The Spanish High Court has announced that a patent exists for a bio weapon, without providing evidence that this bio weapon is COVID-19, and without clarifying the patent's relevance to the origin of the COVID-19 pandemic."
+Processed example 13004
+
+[Original Claim]: "National Guard to fill in for cops who refuse to get vaccinated."
+[Inferred Intent]: The intended conclusion of this claim is that law enforcement officers who refuse to get vaccinated against COVID-19 will be replaced by members of the National Guard.
+[Pro Reformulated Claim]: "National Guard will replace law enforcement officers who refuse to comply with COVID-19 vaccination requirements, ensuring public safety and maintaining order in communities."
+[Con Reformulated Claim]: "National Guard to potentially supplement law enforcement efforts in areas where police departments face staffing shortages due to COVID-19 vaccination policies, but it is unclear whether this is a direct replacement for unvaccinated officers or a response to broader public health concerns."
+Processed example 13005
+
+[Original Claim]: "The nation reported adding 194,000 jobs in September, and Florida accounted for 84,500."
+[Inferred Intent]: The intended conclusion is that Florida had a significant impact on the national job market in September, contributing a substantial portion of the total job growth.
+[Pro Reformulated Claim]: "The significant job growth in the US in September, with 194,000 new positions added, was largely driven by Florida's remarkable contribution of 84,500 jobs, underscoring the state's crucial role in the national economy."
+[Con Reformulated Claim]: "The nation reported adding 194,000 jobs in September, with Florida accounting for 84,500, but the significance of this contribution to the national job market remains unclear, as the actual impact of Florida's job growth on the overall economy is dependent on various factors, including the job quality, industry distribution, and regional economic conditions."
+Processed example 13006
+
+[Original Claim]: "Australia to Implement Quarantine Camps for the Unvaxed"
+[Inferred Intent]: The intended conclusion of this claim is that the Australian government is planning to forcibly isolate and detain individuals who have not received the COVID-19 vaccine.
+[Pro Reformulated Claim]: "Australia will establish mandatory quarantine facilities for individuals who refuse to receive the COVID-19 vaccination, ensuring public health and safety by separating unvaxed individuals from the general population."
+[Con Reformulated Claim]: "Australia is allegedly considering establishing quarantine facilities for individuals who have not received the COVID-19 vaccine, but the details of this proposal remain unclear, and there is no concrete evidence to support the claim that these facilities would be used for forced detention or quarantine of unvaxed individuals."
+Processed example 13007
+
+[Original Claim]: President Joe Biden will "control health care costs by slapping a 95% tax on prescription drugs."
+[Inferred Intent]: The intended conclusion of this claim is that President Joe Biden's proposed policy will significantly reduce health care costs by imposing a substantial tax on prescription drugs.
+[Pro Reformulated Claim]: President Joe Biden's proposed policy to impose a 95% tax on prescription drugs will effectively reduce health care costs by a substantial margin, thereby making healthcare more affordable for millions of Americans.
+[Con Reformulated Claim]: "President Joe Biden's proposed 95% tax on prescription drugs may potentially lead to unintended consequences, such as reduced access to life-saving medications, increased costs for patients and the healthcare system, and potential shortages of essential medications, without providing sufficient evidence that the tax will effectively control health care costs."
+Processed example 13008
+
+[Original Claim]: The Biden Department of Justice "would use the FBI to target parents who speak out against critical race theory."
+[Inferred Intent]: The intended conclusion of this claim is that the Biden Department of Justice is likely to suppress free speech and intimidate parents who express opposition to critical race theory.
+[Pro Reformulated Claim]: "The Biden Department of Justice, under the guise of 'protecting' students, would utilize the FBI to silence and intimidate parents who exercise their First Amendment right to free speech by speaking out against critical race theory, thereby undermining the fundamental principles of democratic discourse and the right to dissent."
+[Con Reformulated Claim]: "The Biden Department of Justice allegedly plans to utilize the FBI to suppress the free speech of parents who express opposition to critical race theory, without providing concrete evidence or context about the scope, criteria, or potential consequences of such an action."
+Processed example 13009
+
+[Original Claim]: "Barack Obama signals That Democrats Intend to Cheat in the Virginia Governor’s Election."
+[Inferred Intent]: The intended conclusion of this claim is that the Democratic party is planning to engage in fraudulent or unfair practices to influence the outcome of the Virginia governor's election.
+[Pro Reformulated Claim]: "Barack Obama's recent statement about the Virginia governor's election implies that the Democratic party is planning to engage in fraudulent or unfair practices to influence the outcome, as his words and actions suggest a deliberate attempt to sway public opinion and undermine the integrity of the electoral process."
+[Con Reformulated Claim]: "Barack Obama's recent statement may be misinterpreted as implying that Democrats are planning to cheat in the Virginia governor's election, but a closer examination of the context and evidence suggests that his words were likely taken out of context or misinterpreted, and there is currently no concrete evidence to support the claim of intentional electoral fraud."
+Processed example 13010
+
+[Original Claim]: The migrant caravan from Tapachula, Mexico "is the population of Minneapolis."
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 18/2000 [01:43<3:26:17,  6.24s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 19/2000 [01:47<3:03:19,  5.55s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 20/2000 [01:52<2:58:36,  5.41s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 21/2000 [01:56<2:46:30,  5.05s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 22/2000 [02:02<2:50:35,  5.17s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 23/2000 [02:08<3:05:20,  5.62s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|          | 24/2000 [02:14<3:09:26,  5.75s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|▏         | 25/2000 [02:20<3:07:29,  5.70s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+[Inferred Intent]: The intended conclusion of this claim is that the migrant caravan from Tapachula, Mexico is extremely large and overwhelming, implying that it is comparable in size to the population of Minneapolis, which is a significant city with a population of over 430,000 people.
+[Pro Reformulated Claim]: "The migrant caravan from Tapachula, Mexico is a massive influx of people, numbering in the hundreds of thousands, comparable in scale to the population of Minneapolis, which underscores the urgency and magnitude of the humanitarian crisis at the US-Mexico border."
+[Con Reformulated Claim]: "The migrant caravan from Tapachula, Mexico is often reported to be a large group of people, but the exact number is difficult to determine and may be exaggerated, and it is misleading to compare it to the population of Minneapolis, a city with a well-established and diverse population of over 430,000 people, without providing concrete evidence to support such a comparison."
+Processed example 13011
+
+[Original Claim]: A Kansas City tourism sign had a terrible typo.
+[Inferred Intent]: The intended conclusion of this claim is that the sign is poorly designed or maintained, implying that it reflects poorly on the city's image or reputation.
+[Pro Reformulated Claim]: "A Kansas City tourism sign's glaring typo undermines the city's reputation as a well-managed and welcoming destination, highlighting the need for improved attention to detail in its public signage."
+[Con Reformulated Claim]: "A Kansas City tourism sign may have contained a minor typographical error, potentially due to human mistake or oversight, which could be corrected without necessarily reflecting poorly on the city's image or reputation."
+Processed example 13012
+
+[Original Claim]: "COP26 luxury EVs to be recharged using diesel generators"
+[Inferred Intent]: The intended conclusion of this claim is that the use of diesel generators to recharge luxury EVs at COP26 is a wasteful and environmentally harmful practice.
+[Pro Reformulated Claim]: "COP26 luxury EVs will be recharged using diesel generators, thereby perpetuating a contradictory and hypocritical stance on climate action, as it undermines the environmental benefits of electric vehicles and reinforces the reliance on fossil fuels."
+[Con Reformulated Claim]: "COP26 luxury EVs to be recharged using diesel generators, potentially perpetuating a reliance on fossil fuels and undermining the event's climate goals, while also raising questions about the environmental impact of the charging infrastructure and the true carbon footprint of these luxury vehicles."
+Processed example 13013
+
+[Original Claim]: Product shortages are manufactured; goods are stuck in warehouses.
+[Inferred Intent]: The intended conclusion of this claim is that companies are intentionally withholding products from the market to create a false sense of scarcity and drive up prices.
+[Pro Reformulated Claim]: "Companies deliberately hoard products in warehouses, artificially restricting supply to create a false sense of scarcity, thereby driving up prices and profiteering from consumer desperation."
+[Con Reformulated Claim]: "Product shortages may be attributed to a complex interplay of factors, including supply chain disruptions, logistical issues, and unforeseen demand surges, rather than a deliberate attempt to manipulate the market."
+Processed example 13014
+
+[Original Claim]: With COVID-19, vaccinated people "are the real threat to" unvaccinated people.
+[Inferred Intent]: The intended conclusion of this claim is that vaccinated individuals pose a greater risk to unvaccinated individuals than the virus itself, which is a misleading and inaccurate statement.
+[Pro Reformulated Claim]: Vaccinated individuals, due to their potential to unknowingly spread the virus, pose a greater risk to unvaccinated individuals than the virus itself, as they can inadvertently transmit the disease to those who are not protected.
+[Con Reformulated Claim]: "Vaccinated individuals may potentially carry and transmit the virus, but the scientific consensus is that the risk of transmission is significantly reduced, and the benefits of vaccination far outweigh the risks, making it crucial to prioritize vaccination to protect both vaccinated and unvaccinated individuals from the virus."
+Processed example 13015
+
+[Original Claim]: A photo taken on Jan. 6, 2021, at the United States Capitol riot was "doctored to look as if the Capitol was on fire."
+[Inferred Intent]: The intended conclusion of this claim is that the photo was altered to deceive the public into believing the Capitol was on fire, which implies that the riot was more severe or destructive than it actually was.
+[Pro Reformulated Claim]: The photo taken on January 6, 2021, at the United States Capitol riot was intentionally manipulated to create a false impression that the Capitol building was engulfed in flames, thereby misleading the public about the severity and destructive nature of the riot.
+[Con Reformulated Claim]: "A photo taken on Jan. 6, 2021, at the United States Capitol riot may have been potentially altered, but there is no conclusive evidence to support the claim that it was intentionally doctored to create the illusion of the Capitol being on fire, and any such alterations would likely be minor and not significantly impact the overall depiction of the event."
+Processed example 13016
+
+[Original Claim]: Children who receive COVID-19 vaccinations "will be walking factories of spike proteins" that will "undoubtedly cause illnesses to spread like wildfire in schools."
+[Inferred Intent]: The intended conclusion of this claim is that COVID-19 vaccinations will increase the spread of illnesses in schools among children.
+[Pro Reformulated Claim]: Children who receive COVID-19 vaccinations will become unwitting vectors of transmission, potentially spreading the virus to their peers and teachers, thereby increasing the risk of illness outbreaks in schools.
+[Con Reformulated Claim]: "Children who receive COVID-19 vaccinations may potentially carry and transmit the virus, but the scientific consensus is that the benefits of vaccination, including reduced transmission and severe illness, outweigh the risks, and the evidence does not support the claim that vaccinated individuals will 'undoubtedly cause illnesses to spread like wildfire in schools.'"
+Processed example 13017
+
+[Original Claim]: Scam artists are using Amazon to send people face masks laced with "something toxic."
+[Inferred Intent]: The intended conclusion of this claim is that Amazon is being used as a platform for fraudulent activity, and that customers may be unknowingly purchasing harmful products.
+[Pro Reformulated Claim]: Amazon is being exploited by scam artists who are using the platform to sell face masks laced with toxic substances, putting unsuspecting customers at risk of serious harm, and it is imperative that the company takes immediate action to prevent and detect such fraudulent activities.
+[Con Reformulated Claim]: "Amazon customers may be unknowingly purchasing face masks from third-party sellers, some of which may potentially be counterfeit or contain unknown substances, but there is no concrete evidence to support the claim that these masks are 'laced with something toxic'."
+Processed example 13018
+
+[Original Claim]: "You've had over 2 million women drop out of the workforce during this pandemic."
+[Inferred Intent]: The intended conclusion of this claim is that the pandemic has had a significant and negative impact on women's employment and economic participation.
+[Pro Reformulated Claim]: "The COVID-19 pandemic has led to a staggering 2 million women leaving the workforce, resulting in a significant erosion of women's economic empowerment and a disproportionate impact on their long-term career prospects and financial security."
+[Con Reformulated Claim]: "Approximately 2 million women have left the workforce since the pandemic began, but the reasons for this decline are unclear, and it's uncertain whether this is solely due to the pandemic or other factors such as changes in labor market conditions, caregiving responsibilities, or personal choices."
+Processing examples:   1%|▏         | 26/2000 [02:25<2:59:44,  5.46s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|▏         | 27/2000 [02:31<3:02:17,  5.54s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|▏         | 28/2000 [02:36<3:02:28,  5.55s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   1%|▏         | 29/2000 [02:42<3:08:07,  5.73s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 30/2000 [02:50<3:29:35,  6.38s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 31/2000 [02:55<3:10:48,  5.81s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 32/2000 [03:01<3:18:51,  6.06s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 33/2000 [03:06<3:08:42,  5.76s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 34/2000 [03:13<3:20:43,  6.13s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processed example 13019
+
+[Original Claim]: "Gas in North Carolina increased 14 cents per gallon this past week, the highest in the nation."
+[Inferred Intent]: The intended conclusion of this claim is that North Carolina has the highest gas price increase in the country, implying that the state's residents are being disproportionately affected by rising gas prices.
+[Pro Reformulated Claim]: "North Carolina's 14-cent per gallon gas price increase this past week is the highest in the nation, indicating that the state's residents are facing the most significant burden from rising gas prices, with far-reaching implications for their daily lives, local economies, and overall well-being."
+[Con Reformulated Claim]: "Gas prices in North Carolina increased 14 cents per gallon this past week, but without considering the national average or regional variations, this claim may be misleading, as it does not account for potential differences in gas prices across the country."
+Processed example 13020
+
+[Original Claim]: President Joe Biden threatened to "swoop down with Special Forces folks and gather up every gun in America."
+[Inferred Intent]: The intended conclusion of this claim is that President Joe Biden is advocating for the confiscation of all guns in America, which is likely to be perceived as an infringement on Second Amendment rights.
+[Pro Reformulated Claim]: President Joe Biden has explicitly stated his intention to deploy Special Forces to seize every firearm in the United States, thereby infringing upon the Second Amendment rights of American citizens and sparking widespread controversy.
+[Con Reformulated Claim]: "President Joe Biden allegedly made a statement that could be interpreted as threatening to deploy Special Forces to confiscate all guns in America, but the context and accuracy of this claim are unclear, and it is unclear whether this statement was taken out of context or misinterpreted."
+Processed example 13021
+
+[Original Claim]: Says Dr. Anthony Fauci planned the AIDS epidemic.
+[Inferred Intent]: The intended conclusion of this claim is that Dr. Anthony Fauci is responsible for the origin or spread of the AIDS epidemic, which is a baseless and false conspiracy theory.
+[Pro Reformulated Claim]: I cannot reformulate the claim in a way that makes the implied conclusion more explicit and persuasive. The claim that Dr. Anthony Fauci planned the AIDS epidemic is a baseless and false conspiracy theory. Is there something else I can help you with?
+[Con Reformulated Claim]: "Dr. Anthony Fauci's involvement in the early stages of the AIDS epidemic has been subject to controversy and scrutiny, with some critics questioning his role in the development and implementation of policies that may have contributed to the spread of the disease, but there is no credible evidence to support the claim that he planned the epidemic."
+Processed example 13022
+
+[Original Claim]: "Unmask your kids! Any carbon dioxide concentrations above" 2,000 parts per million are "dangerous!"
+[Inferred Intent]: The intended conclusion of this claim is that carbon dioxide concentrations above 2,000 parts per million are harmful to children, and therefore, parents should take action to reduce their exposure to such levels.
+[Pro Reformulated Claim]: "Parents, it is crucial to take immediate action to reduce your children's exposure to carbon dioxide concentrations above 2,000 parts per million, as these levels pose a significant risk to their health and well-being, potentially leading to long-term damage and increased vulnerability to respiratory issues, cognitive impairment, and other serious health problems."
+[Con Reformulated Claim]: "Unmask your kids! Any carbon dioxide concentrations above 2,000 parts per million may potentially pose health risks, but the scientific consensus is unclear on the exact threshold for harm, and individual susceptibility varies greatly, making it crucial to consider multiple factors, including ventilation, air quality, and overall environmental conditions, before making any conclusions about the safety of CO2 levels."
+Processed example 13023
+
+[Original Claim]: "States run elections, not the federal government."
+[Inferred Intent]: The intended conclusion of this claim is that the federal government does not have a significant role in the administration of elections in the United States.
+[Pro Reformulated Claim]: States, as the primary authorities responsible for administering elections, have the constitutional authority and autonomy to manage the electoral process, thereby limiting the federal government's involvement to a minimal and supportive role.
+[Con Reformulated Claim]: "States have primary responsibility for administering elections, but the federal government plays a crucial role in setting national standards, providing funding, and ensuring the integrity of the electoral process, making it a collaborative effort between state and federal authorities."
+Processed example 13024
+
+[Original Claim]: "Greenland's ice sheet isn't shrinking any more rapidly today than it was 80 years ago."
+[Inferred Intent]: The intended conclusion of this claim is that Greenland's ice sheet is not experiencing a significant or alarming rate of melting or shrinkage, and its current state is comparable to its historical rate of change.
+[Pro Reformulated Claim]: "Greenland's ice sheet has not exhibited a statistically significant acceleration in its melting rate over the past 80 years, and its current rate of shrinkage is comparable to its historical average, indicating a stable or potentially even slowing rate of ice mass loss."
+[Con Reformulated Claim]: "Greenland's ice sheet's rate of mass loss has been masked by natural variability over the past 80 years, making it difficult to determine whether its current rate of melting is significantly different from its historical rate, and further research is needed to accurately assess its current state and potential future changes."
+Processed example 13025
+
+[Original Claim]: "There is no such thing as a booster. There is a failed product that is sometimes used again in hopes of a different outcome."
+[Inferred Intent]: The intended conclusion of this claim is that the product in question is ineffective and should not be relied upon, and that its reuse is a desperate attempt to achieve a different outcome.
+[Pro Reformulated Claim]: "There is no evidence to support the efficacy of the product, and its repeated use is a futile attempt to salvage a failed solution, rather than a genuine effort to improve outcomes."
+[Con Reformulated Claim]: "There is a product that has shown varying degrees of effectiveness in different contexts, and its reuse may be justified in certain situations, but the claim that it is a 'failed product' is an oversimplification that neglects the complexities of its performance and potential applications."
+Processed example 13026
+
+[Original Claim]: President Joe Biden withdrew troops from Afghanistan "simply because of Trump Derangement Syndrome and they wanted to reverse any policy that Trump had implemented."
+[Inferred Intent]: The intended conclusion of this claim is that President Biden's decision to withdraw troops from Afghanistan was motivated by a personal vendetta against Trump rather than a thoughtful consideration of the situation on the ground.
+[Pro Reformulated Claim]: President Joe Biden withdrew troops from Afghanistan solely to demonstrate his disdain for Donald Trump's policies and to assert his own authority, rather than to prioritize the safety and security of American troops or the stability of the region.
+[Con Reformulated Claim]: "President Joe Biden withdrew troops from Afghanistan without providing sufficient evidence of a comprehensive exit strategy, and critics argue that his decision may have been influenced by a desire to undo Trump's policies, but the actual motivations and considerations behind the withdrawal remain unclear, and it is uncertain whether the withdrawal was truly in the best interest of the United States and its allies."
+Processed example 13027
+
+[Original Claim]: "FUN FACT: West Virginia is home to zero billionaires."
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 35/2000 [03:18<3:04:01,  5.62s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 36/2000 [03:25<3:17:27,  6.03s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 37/2000 [03:31<3:21:28,  6.16s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 38/2000 [03:37<3:12:36,  5.89s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 39/2000 [03:43<3:19:54,  6.12s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 40/2000 [03:47<2:52:18,  5.27s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 41/2000 [03:54<3:09:21,  5.80s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 42/2000 [03:59<3:05:56,  5.70s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+[Inferred Intent]: The intended conclusion of this claim is that West Virginia is a state with limited economic wealth and opportunities, implying that it may not be a hub for entrepreneurship or high-income individuals.
+[Pro Reformulated Claim]: West Virginia's lack of billionaires suggests a limited concentration of wealth and economic opportunities, indicating a potentially challenging environment for entrepreneurship and high-income individuals.
+[Con Reformulated Claim]: "FUN FACT: West Virginia's billionaire population is unreported or underreported, potentially due to lack of transparency in wealth tracking or tax evasion, making it difficult to accurately determine the number of billionaires residing in the state."
+Processed example 13028
+
+[Original Claim]: "Pfizer Confirms COVID-Vaccinated People Can ‘Shed’ Spike Proteins And Harm The Unvaccinated"
+[Inferred Intent]: The intended conclusion of this claim is that the COVID-19 vaccine can harm the unvaccinated individuals by transmitting spike proteins to them, implying that vaccination is a risk to public health.
+[Pro Reformulated Claim]: "Pfizer's confirmation that COVID-vaccinated individuals can'shed' spike proteins, which are capable of causing harm to the unvaccinated, unequivocally demonstrates that vaccination poses a significant risk to public health, as it can inadvertently harm those who have chosen not to receive the vaccine."
+[Con Reformulated Claim]: "Pfizer's study on COVID-19 vaccine shedding suggests that vaccinated individuals may release spike proteins, but the extent to which this occurs and its potential impact on unvaccinated individuals remains unclear, and further research is needed to determine the actual risks and benefits of vaccination."
+Processed example 13029
+
+[Original Claim]: A video shows "your packages were rerouted and have arrived in the port of Miami" as a result of Gov. Ron DeSantis.
+[Inferred Intent]: The intended conclusion of this claim is that Gov. Ron DeSantis is responsible for rerouting packages to the port of Miami, implying that he has control over or influence on the shipping process.
+[Pro Reformulated Claim]: "Gov. Ron DeSantis has intentionally rerouted packages to the port of Miami, demonstrating his direct control over the shipping process and highlighting his ability to manipulate the supply chain for political or personal gain."
+[Con Reformulated Claim]: "A video allegedly shows a claim that some packages were rerouted and have arrived in the port of Miami, but the video does not provide evidence of Gov. Ron DeSantis' involvement or control over the shipping process, and it is unclear whether the rerouting was intentional or a result of external factors."
+Processed example 13030
+
+[Original Claim]: Virginia voters are being turned away from polling locations because they were told they already requested absentee ballots when they haven’t.
+[Inferred Intent]: The intended conclusion of this claim is that the voting process in Virginia is flawed and potentially disenfranchising eligible voters.
+[Pro Reformulated Claim]: Virginia voters are being systematically disenfranchised due to a flawed absentee voting system, which is causing eligible voters to be turned away from polling locations under false pretenses, thereby undermining the integrity and accessibility of the democratic process in the state.
+[Con Reformulated Claim]: "Virginia voters are being turned away from polling locations due to alleged discrepancies in voter registration records, which may be attributed to administrative errors, outdated information, or miscommunication, rather than a deliberate attempt to disenfranchise voters."
+Processed example 13031
+
+[Original Claim]: Keystone Pipeline was blocked by Obama on Warren Buffett’s behalf.
+[Inferred Intent]: The intended conclusion of this claim is that Warren Buffett, a wealthy businessman and investor, had undue influence over President Obama's decision to block the Keystone Pipeline, implying that Obama's decision was motivated by personal or financial interests rather than public policy considerations.
+[Pro Reformulated Claim]: Warren Buffett's significant financial interests in the rail industry and his close ties to President Obama led to Obama's decision to block the Keystone Pipeline, demonstrating a clear conflict of interest and undermining the public's trust in the administration's ability to make impartial decisions on major infrastructure projects.
+[Con Reformulated Claim]: "Warren Buffett's investment in the Keystone Pipeline's competitor, TransCanada, may have influenced his opinion on the project, but there is no conclusive evidence to suggest he directly influenced President Obama's decision to block the pipeline, which was based on environmental and national security concerns."
+Processed example 13032
+
+[Original Claim]: "Japan drops vax rollout"
+[Inferred Intent]: The intended conclusion of this claim is that the vaccination rollout in Japan has been halted or significantly slowed down.
+[Pro Reformulated Claim]: "Japan has suspended its COVID-19 vaccination program, effectively halting the rollout of vaccines to the general public."
+[Con Reformulated Claim]: "Japan's vaccination rollout has reportedly experienced a temporary slowdown or minor adjustments, but there is no credible evidence to suggest a complete halt or significant suspension of the program."
+Processed example 13033
+
+[Original Claim]: "Moderna has been pulled in Iceland and pulled for everyone under age 30 in Finland, Sweden, Norway, Denmark due to heart issues."
+[Inferred Intent]: The intended conclusion of this claim is that the COVID-19 vaccine developed by Moderna is unsafe for people under the age of 30, implying that it may cause heart issues.
+[Pro Reformulated Claim]: "Moderna's COVID-19 vaccine has been withdrawn from circulation in Iceland and restricted for individuals under 30 in Finland, Sweden, Norway, and Denmark due to a heightened risk of heart-related complications, rendering it unsuitable for this age group."
+[Con Reformulated Claim]: "Moderna's COVID-19 vaccine has been temporarily suspended for individuals under 30 in certain countries due to reported heart issues, but the exact scope, severity, and causal link between the vaccine and these issues remain unclear, and further investigation is needed to determine the vaccine's overall safety and efficacy for this age group."
+Processed example 13034
+
+[Original Claim]: Says President Joe Biden "is in talks to pay illegal immigrants $450,000."
+[Inferred Intent]: The intended conclusion of this claim is that President Joe Biden is considering a policy to pay illegal immigrants a significant amount of money, which may be perceived as a reward or incentive for their illegal actions.
+[Pro Reformulated Claim]: President Joe Biden is secretly negotiating a policy to offer a $450,000 payment to illegal immigrants as a reward for their illegal entry into the United States, thereby incentivizing further illegal immigration and undermining national security.
+[Con Reformulated Claim]: "President Joe Biden is allegedly in talks to provide financial compensation to individuals who have been separated from their families or have experienced harm due to the previous administration's immigration policies, with reports suggesting a potential amount of $450,000 per person."
+Processed example 13035
+
+[Original Claim]: A chart shows China and India are leading in per capita carbon dioxide emissions.
+[Inferred Intent]: The intended conclusion of this claim is that China and India are the largest contributors to per capita carbon dioxide emissions, implying that they are the primary culprits behind climate change.
+[Pro Reformulated Claim]: China and India are the world's largest per capita contributors to carbon dioxide emissions, accounting for a disproportionate share of global emissions and thus, their actions have a significant impact on the global climate crisis.
+Processing examples:   2%|▏         | 43/2000 [04:04<3:00:27,  5.53s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 44/2000 [04:10<3:02:42,  5.60s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 45/2000 [04:16<3:10:20,  5.84s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 46/2000 [04:23<3:17:05,  6.05s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 47/2000 [04:29<3:16:50,  6.05s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 48/2000 [04:35<3:12:57,  5.93s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▏         | 49/2000 [04:40<3:10:21,  5.85s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   2%|▎         | 50/2000 [04:46<3:04:24,  5.67s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+[Con Reformulated Claim]: "A chart shows China and India's per capita carbon dioxide emissions are increasing, but the data may be skewed by varying population growth rates, economic development, and reporting inconsistencies, making it difficult to accurately compare their contributions to global carbon dioxide emissions."
+Processed example 13036
+
+[Original Claim]: "U.S. households are on track to spend $19 billion more on energy by 2030."
+[Inferred Intent]: The intended conclusion of this claim is that the increasing energy expenditure by U.S. households by 2030 will have significant economic and environmental implications.
+[Pro Reformulated Claim]: "By 2030, the cumulative increase in U.S. household energy expenditure will reach $19 billion, exacerbating economic burdens on low-income families and contributing to a projected 15% rise in greenhouse gas emissions, thereby necessitating immediate policy interventions to mitigate these consequences."
+[Con Reformulated Claim]: "U.S. households are projected to potentially spend $19 billion more on energy by 2030, assuming current consumption patterns and economic trends continue, but this estimate may be influenced by various factors, including changes in energy efficiency, technological advancements, and shifting consumer behavior, which could significantly impact the actual outcome."
+Processed example 13037
+
+[Original Claim]: "Scientists say this map represents the US in 30 years if we don’t reverse climate change."
+[Inferred Intent]: The intended conclusion of this claim is that if climate change is not reversed, the depicted map will become a reality in 30 years, implying a catastrophic and dire future for the United States.
+[Pro Reformulated Claim]: "If we fail to reverse climate change, a catastrophic and irreversible transformation of the United States is projected to occur within the next 30 years, as depicted by this map, resulting in devastating consequences for the nation's ecosystems, infrastructure, and human populations."
+[Con Reformulated Claim]: "Scientists project a hypothetical map of potential sea-level rise and coastal flooding in 30 years based on current climate trends, but this does not necessarily imply a guaranteed or irreversible outcome, and actual future changes may vary significantly due to ongoing research, technological advancements, and potential policy interventions."
+Processed example 13038
+
+[Original Claim]: "Virginia Democrat operatives" and Terry McAuliffe campaign staffers posed as white supremacists and stood by Republican Glenn Youngkin’s bus.
+[Inferred Intent]: The intended conclusion of this claim is that the Virginia Democrat operatives and Terry McAuliffe campaign staffers' actions were a deliberate attempt to discredit Glenn Youngkin and his campaign by associating him with white supremacism.
+[Pro Reformulated Claim]: Virginia Democrat operatives and Terry McAuliffe campaign staffers deliberately posed as white supremacists and stood by Glenn Youngkin's bus to discredit him and his campaign by falsely linking him to white supremacism, thereby undermining his credibility and potentially influencing the outcome of the election.
+[Con Reformulated Claim]: "Unverified allegations suggest that some individuals, possibly affiliated with the Virginia Democrat operatives and Terry McAuliffe campaign, may have posed as white supremacists near Glenn Youngkin's bus, but the authenticity and motivations behind these actions remain unclear, and the connection to the campaign or political affiliations of these individuals has not been established."
+Processed example 13039
+
+[Original Claim]: "Stalin once ripped all the feathers off a live chicken as a lesson to his followers."
+[Inferred Intent]: The intended conclusion of this claim is that Stalin was cruel and brutal, and that he used extreme and inhumane methods to demonstrate his authority and control over his followers.
+[Pro Reformulated Claim]: Stalin's notorious act of ripping the feathers off a live chicken in front of his followers serves as a chilling exemplar of his brutal and sadistic nature, demonstrating his willingness to inflict suffering and terrorize those around him in order to assert his dominance and maintain control.
+[Con Reformulated Claim]: "Stalin allegedly ripped all the feathers off a live chicken as a lesson to his followers, but the authenticity and context of this claim are disputed among historians, and it is unclear whether this event actually occurred."
+Processed example 13040
+
+[Original Claim]: "If you’re a low-wage worker and you’re single and don’t have children, we’re literally taxing you into poverty."
+[Inferred Intent]: The intended conclusion of this claim is that the tax system is unfairly burdening low-wage, single, and childless individuals, potentially pushing them into poverty.
+[Pro Reformulated Claim]: "If the tax system disproportionately burdens low-wage, single, and childless individuals, it perpetuates a cycle of poverty, making it increasingly difficult for them to escape financial insecurity and achieve economic stability."
+[Con Reformulated Claim]: "If you’re a low-wage worker and you’re single and don’t have children, the relationship between your income and tax burden is complex and influenced by various factors, including tax rates, deductions, and credits, making it difficult to determine whether taxes are directly causing poverty."
+Processed example 13041
+
+[Original Claim]: "Fairfax County is not requiring the last four digits of Social Security Numbers on absentee ballots in this election."
+[Inferred Intent]: The intended conclusion of this claim is that Fairfax County is taking a step to protect voter privacy and security by not requiring the last four digits of Social Security Numbers on absentee ballots.
+[Pro Reformulated Claim]: Fairfax County's decision not to require the last four digits of Social Security Numbers on absentee ballots in this election demonstrates a commitment to safeguarding voter privacy and security, thereby ensuring the integrity of the electoral process and promoting trust in the democratic system.
+[Con Reformulated Claim]: "Fairfax County's decision not to require the last four digits of Social Security Numbers on absentee ballots may inadvertently create vulnerabilities for voter identity theft and compromise the integrity of the electoral process, potentially undermining the security and privacy of voters' personal information."
+Processed example 13042
+
+[Original Claim]: The premier of Australia’s Victoria state "is freezing people’s bank accts" if they are not vaccinated. "They can’t buy or sell until forced into submission."
+[Inferred Intent]: The intended conclusion of this claim is that the Victorian government is coercively forcing people to get vaccinated by withholding essential services, such as buying and selling, from those who are not vaccinated.
+[Pro Reformulated Claim]: "The Victorian government is coercively forcing people to get vaccinated by imposing a blanket ban on unvaccinated individuals' ability to buy and sell, effectively holding their financial freedom hostage until they comply with the vaccination requirement."
+[Con Reformulated Claim]: "The Victorian government allegedly freezes people's bank accounts, restricting their ability to buy or sell, unless they comply with vaccination requirements, without providing clear evidence of the necessity, effectiveness, or legal basis for this measure, potentially infringing on individual rights and freedoms."
+Processed example 13043
+
+[Original Claim]: "There are over 1 million phantom voters on the Florida voter rolls."
+[Inferred Intent]: The intended conclusion of this claim is that the integrity of the Florida electoral process is compromised by the presence of fraudulent or ineligible voters.
+[Pro Reformulated Claim]: "There are over 1 million phantom voters on the Florida voter rolls, which undermines the integrity of the state's electoral process and raises serious concerns about the legitimacy of election outcomes in Florida."
+Processing examples:   3%|▎         | 51/2000 [04:51<2:59:47,  5.54s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 52/2000 [04:59<3:21:50,  6.22s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 53/2000 [05:05<3:25:24,  6.33s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 54/2000 [05:11<3:22:37,  6.25s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 55/2000 [05:18<3:23:47,  6.29s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 56/2000 [05:24<3:25:53,  6.35s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 57/2000 [05:29<3:13:56,  5.99s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 58/2000 [05:34<3:03:54,  5.68s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+[Con Reformulated Claim]: "There are allegedly over 1 million individuals listed on Florida's voter rolls who may not be eligible to vote, with the accuracy of this figure disputed by election officials and experts, and the methodology used to arrive at this number potentially flawed or incomplete."
+Processed example 13044
+
+[Original Claim]: "If you were in the military before 2002 you get an additional $1,200 a year, ($100 per month) in Social Security. But you have to ask for it and almost no one knows about it."
+[Inferred Intent]: The intended conclusion of this claim is that many military veterans who served before 2002 are missing out on a significant amount of Social Security benefits due to lack of awareness about the additional $1,200 annual stipend.
+[Pro Reformulated Claim]: "If you are a military veteran who served before 2002 and are not receiving the additional $1,200 annual Social Security stipend, it is likely due to a lack of awareness about this benefit, resulting in a significant financial loss of $100 per month, which could be rectified by simply inquiring about the benefit."
+[Con Reformulated Claim]: "Claim: "The Social Security Administration may provide an additional $1,200 annual stipend to some military veterans who served before 2002, but only if they specifically request it, and it is unclear how many veterans are aware of this benefit or have successfully claimed it, potentially leaving many eligible individuals unaware of this potential benefit."
+Processed example 13045
+
+[Original Claim]: Federal agents directly incited people on Jan. 6, 2021, and "intentionally entrapped" American citizens.
+[Inferred Intent]: The intended conclusion of this claim is that the federal agents were complicit in the January 6, 2021, Capitol riot and deliberately manipulated or coerced individuals to participate in the violence.
+[Pro Reformulated Claim]: Federal agents directly incited and intentionally entrapped American citizens on January 6, 2021, thereby orchestrating the violent Capitol riot and deliberately manipulating the actions of those who participated, thereby demonstrating a clear intent to undermine the democratic process and the rule of law.
+[Con Reformulated Claim]: "Federal agents allegedly may have inadvertently or unintentionally interacted with individuals on January 6, 2021, and some American citizens may have been influenced by these interactions, but there is no conclusive evidence to support the claim that they directly incited or intentionally entrapped others."
+Processed example 13046
+
+[Original Claim]: "Jan. 6 is being used as a pretext to strip millions of Americans, disfavored Americans, of their core constitutional rights."
+[Inferred Intent]: The intended conclusion of this claim is that the January 6th event is being exploited as a justification to restrict the civil liberties of certain groups of people, particularly those who are already marginalized or disadvantaged.
+[Pro Reformulated Claim]: "The January 6th event is being exploited as a pretext to erode the fundamental rights and freedoms of marginalized communities, including voting rights, freedom of assembly, and due process, thereby perpetuating systemic inequality and entrenching existing power imbalances."
+[Con Reformulated Claim]: "Without evidence of a concerted effort to exploit January 6th for political gain, it is unclear whether the event is being used as a pretext to restrict the constitutional rights of specific groups, and any such claims should be substantiated with concrete examples and data to avoid stigmatizing or unfairly targeting marginalized communities."
+Processed example 13047
+
+[Original Claim]: No new COVID-19 cases in Uttar Pradesh, India, due to use of ivermectin
+[Inferred Intent]: The intended conclusion of this claim is that the use of ivermectin has been effective in eliminating COVID-19 cases in Uttar Pradesh, India.
+[Pro Reformulated Claim]: The widespread administration of ivermectin in Uttar Pradesh, India, has led to the complete eradication of COVID-19 cases in the region, demonstrating its efficacy as a potent treatment and prevention strategy against the virus.
+[Con Reformulated Claim]: Reformulated Claim: "The claim that Uttar Pradesh, India, has had no new COVID-19 cases since the use of ivermectin is based on incomplete and potentially unreliable data, and it is unclear whether the observed reduction in cases is solely due to the use of ivermectin or other factors, such as changes in public health measures, population behavior, or natural fluctuations in the virus's spread."
+Processed example 13048
+
+[Original Claim]: "Report finds increased risk of spontaneous abortion following COVID-19 vaccination during pregnancy" after correcting "major error" in CDC study.
+[Inferred Intent]: The intended conclusion of this claim is that the COVID-19 vaccination during pregnancy may pose a risk of spontaneous abortion, despite the CDC's initial findings to the contrary.
+[Pro Reformulated Claim]: "Recent research reveals a statistically significant correlation between COVID-19 vaccination during pregnancy and an elevated risk of spontaneous abortion, contradicting the CDC's initial findings, which were later corrected due to a major error, suggesting that expectant mothers should exercise caution when considering vaccination during this critical period."
+[Con Reformulated Claim]: "Report corrects a major error in a CDC study, revealing a potential association between COVID-19 vaccination during pregnancy and spontaneous abortion, but the study's limitations and potential confounding factors raise significant concerns about the reliability and generalizability of the findings, warranting further investigation and scrutiny."
+Processed example 13049
+
+[Original Claim]: "Global warming is part of (a) natural cycle and there’s nothing we can actually do to stop these cycles."
+[Inferred Intent]: The intended conclusion of this claim is that human efforts to mitigate climate change are futile and unnecessary.
+[Pro Reformulated Claim]: "Global warming is an inherent and recurring natural phenomenon, and our attempts to mitigate its effects are futile, as they will ultimately be overwhelmed by the cyclical nature of the Earth's climate, rendering any human efforts to combat climate change ineffective and unnecessary."
+[Con Reformulated Claim]: "Global warming is potentially influenced by a combination of natural and anthropogenic factors, and while natural cycles do occur, the current rate and magnitude of warming are unprecedented and may be exacerbated by human activities, making it crucial to investigate and address the role of human contributions to mitigate the worst-case scenarios."
+Processed example 13050
+
+[Original Claim]: "Wages have gone up higher, faster than inflation."
+[Inferred Intent]: The intended conclusion of this claim is that workers are experiencing a real increase in purchasing power, as their wages are growing at a rate that exceeds the rate of inflation.
+[Pro Reformulated Claim]: "Wages have increased at a rate that outpaces inflation, resulting in a tangible improvement in the purchasing power of workers, allowing them to afford more goods and services than before."
+[Con Reformulated Claim]: "Wages have increased, but the rate of growth may not necessarily outpace inflation, and the actual purchasing power of workers remains uncertain due to factors like stagnant productivity growth, rising housing costs, and varying regional and industry-specific wage trends."
+Processed example 13051
+
+[Original Claim]: "DEA agent Mark Ibrahim was forced from his job and later indicted simply because he was near the Capitol protest on Jan. 6."
+[Inferred Intent]: The intended conclusion of this claim is that the DEA agent was unfairly targeted and persecuted for his political beliefs or association with the January 6th protest.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 59/2000 [05:40<3:03:05,  5.66s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 60/2000 [05:46<3:10:40,  5.90s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 61/2000 [05:53<3:15:36,  6.05s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 62/2000 [05:58<3:12:46,  5.97s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 63/2000 [06:04<3:11:40,  5.94s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 64/2000 [06:09<2:59:11,  5.55s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 65/2000 [06:13<2:46:26,  5.16s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 66/2000 [06:20<3:01:43,  5.64s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+[Pro Reformulated Claim]: "DEA agent Mark Ibrahim was unfairly targeted and persecuted for his political beliefs or association with the January 6th protest, leading to his forced removal from his job and subsequent indictment, demonstrating a clear disregard for due process and a chilling effect on free speech."
+[Con Reformulated Claim]: "DEA agent Mark Ibrahim was allegedly forced from his job and later indicted, with the exact circumstances and motivations behind these actions unclear, and some potential connections to his proximity to the Capitol protest on Jan. 6, but further investigation and evidence are needed to determine the true reasons for these events."
+Processed example 13052
+
+[Original Claim]: "Arizona Department of Education gives green light on face mask and vaccine mandates, as well as implementing Critical (Race) Theory."
+[Inferred Intent]: The intended conclusion of this claim is that the Arizona Department of Education has approved or endorsed the implementation of face mask and vaccine mandates, as well as the teaching of Critical Race Theory, in schools.
+[Pro Reformulated Claim]: "The Arizona Department of Education has officially sanctioned the mandatory use of face masks and vaccines in schools, as well as the incorporation of Critical Race Theory into the curriculum, thereby endorsing a comprehensive approach to promoting student safety, equity, and academic excellence."
+[Con Reformulated Claim]: "Arizona Department of Education allegedly considers or discusses the possibility of implementing face mask and vaccine mandates, as well as exploring the incorporation of Critical Race Theory into educational curricula, without providing concrete evidence of official approval or endorsement."
+Processed example 13053
+
+[Original Claim]: Video shows irate airline passenger demanding a seat away from an unvaccinated passenger and being asked to leave the airplane.
+[Inferred Intent]: The intended conclusion of this claim is that the airline is taking measures to ensure the safety and well-being of passengers by separating individuals who may be at risk due to their vaccination status.
+[Pro Reformulated Claim]: "Video footage captures an airline passenger being asked to leave the plane after refusing to relocate to a different seat, allegedly due to concerns about being seated near an unvaccinated individual, demonstrating the airline's commitment to prioritizing passenger safety and well-being by implementing measures to minimize potential health risks associated with vaccine status."
+[Con Reformulated Claim]: "Video shows an airline passenger being asked to leave the plane after allegedly demanding a seat away from an unvaccinated passenger, raising questions about the airline's handling of passenger requests and potential biases in their enforcement of health protocols."
+Processed example 13054
+
+[Original Claim]: "More fraud in New Jersey’s election uncovered – voting machines would not allow citizens to vote for Republican governor candidate."
+[Inferred Intent]: The intended conclusion of this claim is that the voting machines in New Jersey's election were rigged against the Republican governor candidate, implying that the election was unfair and potentially fraudulent.
+[Pro Reformulated Claim]: "New Jersey's election was compromised by fraudulent voting machines, which deliberately prevented citizens from casting ballots for the Republican governor candidate, thereby undermining the integrity of the democratic process and the will of the people."
+[Con Reformulated Claim]: "Reports of alleged irregularities in New Jersey's election suggest that some voting machines may have malfunctioned, potentially preventing citizens from casting votes for the Republican governor candidate, but further investigation and evidence are needed to confirm the extent and nature of these issues."
+Processed example 13055
+
+[Original Claim]: "Vitamin D levels of 50 ng/mL correlates to zero mortality rate from COVID."
+[Inferred Intent]: The intended conclusion of this claim is that having a Vitamin D level of 50 ng/mL is a guarantee against mortality from COVID-19.
+[Pro Reformulated Claim]: "Having a Vitamin D level of 50 ng/mL is a statistically significant predictor of zero mortality rate from COVID-19, indicating a direct correlation between optimal Vitamin D levels and complete protection against COVID-19-related mortality."
+[Con Reformulated Claim]: "Vitamin D levels of 50 ng/mL may be associated with a reduced risk of mortality from COVID-19, but this correlation does not imply a zero mortality rate, as individual factors, such as overall health, age, and comorbidities, can significantly influence the outcome, and further research is needed to establish a causal link between Vitamin D levels and COVID-19 mortality."
+Processed example 13056
+
+[Original Claim]: "No governor in Virginia has ever won when...he or she is the same party as the sitting president."
+[Inferred Intent]: The intended conclusion of this claim is that the party affiliation of the sitting president has a significant impact on the outcome of gubernatorial elections in Virginia.
+[Pro Reformulated Claim]: "No governor in Virginia has ever won a gubernatorial election when the same party as the sitting president held the White House, indicating a significant partisan advantage for the opposing party in these elections."
+[Con Reformulated Claim]: "No governor in Virginia has ever won when the sitting president's party has a majority in both the House and Senate, and the governor's party is the same as the sitting president's party."
+Processed example 13057
+
+[Original Claim]: "Spike protein goes to nucleus and impairs DNA repair."
+[Inferred Intent]: The intended conclusion of this claim is that the presence of the spike protein may contribute to the development of long-term health issues or diseases by disrupting the body's natural ability to repair DNA damage.
+[Pro Reformulated Claim]: "Spike protein's presence in the nucleus impairs DNA repair mechanisms, potentially leading to increased genetic mutations and long-term health consequences."
+[Con Reformulated Claim]: "Spike protein may potentially interact with cellular components, potentially affecting DNA repair mechanisms, but the exact mechanisms and implications of such interactions remain unclear and require further investigation."
+Processed example 13058
+
+[Original Claim]: "Sending your child to school" on a day when vaccines are being administered "is implied consent" for getting the COVID-19 vaccine.
+[Inferred Intent]: The intended conclusion of this claim is that parents who send their children to school on a day when vaccines are being administered are implicitly agreeing to have their children receive the COVID-19 vaccine.
+[Pro Reformulated Claim]: "By sending your child to school on a day when vaccines are being administered, you are providing implied consent for your child to receive the COVID-19 vaccine, thereby tacitly agreeing to the administration of the vaccine and relinquishing your right to opt-out or decline the vaccination."
+[Con Reformulated Claim]: "Sending your child to school on a day when vaccines are being administered is often assumed to imply consent for getting the COVID-19 vaccine, but this assumption relies on an unclear and potentially coercive understanding of implied consent, which may not accurately reflect the parent's actual intentions or knowledge about the vaccine."
+Processed example 13059
+
+[Original Claim]: "The infrastructure bill itself is only 10% true infrastructure."
+[Inferred Intent]: The intended conclusion of this claim is that the majority of the infrastructure bill's content is not actually related to infrastructure, but rather serves other purposes or interests.
+[Pro Reformulated Claim]: "The infrastructure bill is predominantly composed of non-infrastructure provisions, with a mere 10% of its content directly addressing genuine infrastructure development, while the remaining 90% prioritizes other interests, such as corporate subsidies, tax breaks, or political favors."
+Processing examples:   3%|▎         | 67/2000 [06:25<2:56:37,  5.48s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 68/2000 [06:31<3:01:54,  5.65s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   3%|▎         | 69/2000 [06:38<3:10:13,  5.91s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▎         | 70/2000 [06:44<3:17:40,  6.15s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▎         | 71/2000 [06:50<3:17:34,  6.15s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▎         | 72/2000 [06:55<3:03:39,  5.72s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▎         | 73/2000 [07:00<2:51:17,  5.33s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▎         | 74/2000 [07:05<2:46:56,  5.20s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▍         | 75/2000 [07:12<3:07:02,  5.83s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+[Con Reformulated Claim]: "The infrastructure bill's 90% non-infrastructure content is potentially misleadingly categorized, and its actual allocation of funds and priorities may be unclear or opaque, warranting closer examination and scrutiny."
+Processed example 13060
+
+[Original Claim]: Merriam-Webster recently changed its definition of the word "vaccine" and removed the immunity portion.
+[Inferred Intent]: The intended conclusion of this claim is that the removal of the immunity portion from Merriam-Webster's definition of "vaccine" implies that vaccines no longer provide immunity, which is likely to mislead people into believing that vaccines are ineffective or unsafe.
+[Pro Reformulated Claim]: Merriam-Webster's recent definition change of "vaccine" to exclude immunity implies that vaccines no longer provide immunity, thereby undermining public trust in their effectiveness and safety.
+[Con Reformulated Claim]: "Merriam-Webster allegedly changed its definition of 'vaccine' without providing a clear explanation, potentially leading to confusion about the term's meaning and potentially misleading the public about the efficacy of vaccines."
+Processed example 13061
+
+[Original Claim]: "Wisconsin is almost equally divided on partisan lines" and therefore new Legislative maps could be drawn to "represent that 50-50 split."
+[Inferred Intent]: The intended conclusion is that the Wisconsin Legislature should draw new maps that create a 50-50 partisan split in the state's representation, implying a desire for partisan balance and potentially equal representation.
+[Pro Reformulated Claim]: Wisconsin's electoral landscape is characterized by a near-even partisan split, warranting the creation of legislative maps that accurately reflect this 50-50 divide, thereby ensuring a balanced representation in the state's government.
+[Con Reformulated Claim]: "Assuming a simplistic, binary partisan divide, Wisconsin's political landscape is oversimplified, neglecting the complexities of voter demographics, geographic representation, and the nuances of political ideology, which may not align with a 50-50 split, and therefore, drawing maps solely to achieve partisan balance may compromise the representation of diverse interests and communities."
+Processed example 13062
+
+[Original Claim]: "Only a court can decide that somebody is incompetent to vote" -- the state Election Commission "cannot force facilities, private facilities, to allow special voting deputies" inside.
+[Inferred Intent]: The intended conclusion is that the state Election Commission cannot require private facilities to allow special voting deputies to assist voters with disabilities, and only a court can determine whether a voter is incompetent to cast a ballot.
+[Pro Reformulated Claim]: Only a court can determine whether a voter is incompetent to cast a ballot, and therefore, the state Election Commission cannot legally compel private facilities to allow special voting deputies to assist voters with disabilities, as this decision is best left to the judicial system.
+[Con Reformulated Claim]: "Only a court can definitively determine whether a voter is incompetent to vote, and the state Election Commission cannot unilaterally dictate that private facilities must allow special voting deputies to assist voters with disabilities, potentially disenfranchising those who may not have access to such assistance otherwise."
+Processed example 13063
+
+[Original Claim]: "Children are 50 times more likely to be killed by the Covid vaccines than by the virus itself."
+[Inferred Intent]: The intended conclusion of this claim is that the Covid vaccines are more dangerous for children than the virus itself, and therefore, parents should not vaccinate their children against Covid-19.
+[Pro Reformulated Claim]: "Given the available data, it is statistically more likely that a child will suffer a fatal adverse reaction to the Covid-19 vaccine than to contract and succumb to the virus itself, thus rendering vaccination a potentially harmful decision for children."
+[Con Reformulated Claim]: "According to a disputed and potentially misleading analysis, children might be at a theoretically higher risk of adverse reactions to Covid-19 vaccines compared to the virus itself, but the actual data and scientific consensus suggest that the vaccines are safe and effective, and the risk of serious harm from the virus far outweighs any hypothetical risks from vaccination."
+Processed example 13064
+
+[Original Claim]: "This idea that it's the pandemic of the unvaccinated, it's just a total lie."
+[Inferred Intent]: The intended conclusion of this claim is that the notion that the COVID-19 pandemic is primarily caused by the unvaccinated is false and misleading.
+[Pro Reformulated Claim]: "The COVID-19 pandemic is not primarily caused by the unvaccinated, and the notion that it is is a misleading and inaccurate representation of the facts."
+[Con Reformulated Claim]: "This idea that the pandemic is solely caused by the unvaccinated, without considering the complex interplay of factors, including viral mutations, global connectivity, and societal behaviors, oversimplifies the issue and may be misleading."
+Processed example 13065
+
+[Original Claim]: "Iowa ranks 45th in the U.S. for internet connectivity."
+[Inferred Intent]: The intended conclusion of this claim is that Iowa has relatively poor internet connectivity compared to other states in the United States.
+[Pro Reformulated Claim]: "Iowa's 45th ranking in the U.S. for internet connectivity indicates a significant disparity in access to reliable and high-speed internet, resulting in a substantial disadvantage for its residents, businesses, and overall economic development."
+[Con Reformulated Claim]: "Iowa ranks 45th in the U.S. for internet connectivity, but the ranking is based on a limited dataset and may not accurately reflect the actual quality and availability of internet services across the state."
+Processed example 13066
+
+[Original Claim]: A crime was committed when a New Jersey election worker allowed someone who said he was not a citizen to fill out a ballot.
+[Inferred Intent]: The intended conclusion of this claim is that the election worker's actions were illegal and potentially fraudulent, implying that the election was compromised and the outcome may be invalid.
+[Pro Reformulated Claim]: A crime was committed when a New Jersey election worker knowingly allowed a non-citizen to cast a ballot, thereby potentially invalidating the election outcome and undermining the integrity of the democratic process.
+[Con Reformulated Claim]: "A New Jersey election worker allegedly allowed someone claiming to be a non-citizen to fill out a ballot, without verifying the individual's citizenship status, which may have potentially compromised the integrity of the election process."
+Processed example 13067
+
+[Original Claim]: "Within two years, there were two 500-year (storm) events" in Wisconsin.
+[Inferred Intent]: The intended conclusion of this claim is that the frequency or likelihood of 500-year storm events in Wisconsin has increased significantly, implying a potential trend or anomaly in the region's weather patterns.
+[Pro Reformulated Claim]: "Within the past two years, Wisconsin has experienced a statistically significant increase in the frequency of 500-year storm events, indicating a potential shift in the region's climate patterns, which warrants further investigation and adaptation measures to mitigate the associated risks and impacts."
+[Con Reformulated Claim]: "Within a two-year period, there were two 500-year storm events in Wisconsin, which may be coincidental and not necessarily indicative of a trend or increase in the frequency or likelihood of such events, as the definition of a 500-year event is based on a statistical probability and does not account for potential biases in the data or the possibility of rare, unexplained events."
+Processed example 13068
+
+[Original Claim]: In the infrastructure bill that just passed the House, "only 10% is actual infrastructure."
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▍         | 76/2000 [07:17<3:04:50,  5.76s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▍         | 77/2000 [07:26<3:28:39,  6.51s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▍         | 78/2000 [07:32<3:25:53,  6.43s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▍         | 79/2000 [07:39<3:35:26,  6.73s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▍         | 80/2000 [07:47<3:45:08,  7.04s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Processing examples:   4%|▍         | 81/2000 [07:52<3:28:52,  6.53s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.

@@ -1,2 +1,6 @@
 llama3-8b-instruct/
 dataset/
+chroma/chroma_store/
+chroma/converted_model/
+chroma/saved_model/
+chroma/saved_model_new/

@@ -1,12 +1,14 @@
 import argparse
+import json
+from tqdm import tqdm
+
 from agents.single_agent import verify_claim
 from agents.multi_agents import (
     opening_pro, rebuttal_pro, closing_pro,
     opening_con, rebuttal_con, closing_con,
     judge_final_verdict
 )
-import json
-from tqdm import tqdm
+from agents.intent_enhanced_retrieval import intent_enhanced_reformulation
 
 def get_example():
     claim = "\"You know what the biggest lie is, is that restaurants are spreaders of COVID. There's no science for that.\""
@@ -31,87 +33,59 @@ def get_example():
     return claim, evidence_text
 
 def run_single_agent(claim, evidence):
-    # print("\n=== Running Single Agent Verification ===")
-    result = verify_claim(claim, evidence)
-    # print(result)
-    return result
+    return verify_claim(claim, evidence)
 
 def run_multi_agent(claim, evidence):
     print("\n=== Running Multi-Agent Debate (3 rounds) ===")
-
-    # Round 1: Opening
     pro_open = opening_pro(claim, evidence)
     con_open = opening_con(claim, evidence)
-
-    # Round 2: Rebuttal
     pro_rebut = rebuttal_pro(claim, evidence, con_open)
     con_rebut = rebuttal_con(claim, evidence, pro_open)
-
-    # Round 3: Closing
     pro_close = closing_pro(claim, evidence)
     con_close = closing_con(claim, evidence)
-
-    # Final Verdict
     final_result = judge_final_verdict(
         claim, evidence,
         pro_open, con_open,
         pro_rebut, con_rebut,
         pro_close, con_close
     )
-
-    # Output
-    # print("\n--- Pro Agent Opening ---\n", pro_open)
-    # print("\n--- Con Agent Opening ---\n", con_open)
-    # print("\n--- Pro Agent Rebuttal ---\n", pro_rebut)
-    # print("\n--- Con Agent Rebuttal ---\n", con_rebut)
-    # print("\n--- Pro Agent Closing ---\n", pro_close)
-    # print("\n--- Con Agent Closing ---\n", con_close)
-
-    # print("\n=== Final Judge Verdict ===")
-    # print(final_result)
     return pro_open, con_open, pro_rebut, con_rebut, pro_close, con_close, final_result
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["single", "multi"], default="single", help="Choose inference mode.")
+    parser.add_argument(
+        "--mode",
+        choices=["single", "multi", "intent_enhanced", "intent_enhanced_multi"],
+        default="single",
+        help="Choose inference mode."
+    )
     args = parser.parse_args()
 
-    # claim, evidence = get_example()
-    # with open("dataset/test.json", "r") as f:
-    #     all_examples = json.load(f)
-    with open("/home/yirui/mad/data/retrived_evidence_query.json", "r") as f:
+    with open("dataset/test_400.json", "r") as f:
         all_examples = json.load(f)
-    answer_map = {}
-    
-    # Load existing results if file exists  
-    # output_file = "answer_map_single.json" if args.mode == "single" else "answer_map_multi.json"
-    output_file = "answer_map_retrived_evidence_single.json" if args.mode == "single" else "answer_map_retrived_evidence_multi.json"
+
+    # Choose output file
+    output_file = f"400_answer_map_{args.mode}.json"
+
     try:
         with open(output_file, "r") as f:
             answer_map = json.load(f)
     except FileNotFoundError:
         answer_map = {}
 
-    if args.mode == "single":
-        for example in tqdm(all_examples, desc="Processing examples"):
-            example_id = example["example_id"]
-            claim = example["claim"]
-            evidence = example["evidence"]
+    for example in tqdm(all_examples, desc=f"Processing examples ({args.mode})"):
+        example_id = example["example_id"]
+        if example_id in answer_map:
+            continue
+
+        claim = example["claim"]
+        evidence = example["evidence"]
+
+        if args.mode == "single":
             result = run_single_agent(claim, evidence)
             answer_map[example_id] = [result]
-            
-            # Write after each example
-            with open(output_file, "w") as f:
-                json.dump(answer_map, f, indent=2)
-    else:
-        for example in tqdm(all_examples, desc="Processing examples"):
-            example_id = example["example_id"]
-            # Skip if already processed
-            if example_id in answer_map:
-                continue
-                
-            claim = example["claim"]
-            evidence = example["evidence"]
+
+        elif args.mode == "multi":
             pro_open, con_open, pro_rebut, con_rebut, pro_close, con_close, final_result = run_multi_agent(claim, evidence)
             answer_map[example_id] = {
                 "pro_opening": pro_open,
@@ -122,9 +96,52 @@ def main():
                 "con_closing": con_close,
                 "final_verdict": final_result
             }
-            
-            # Write after each example
-            with open(output_file, "w") as f:
-                json.dump(answer_map, f, indent=2)
+
+        elif args.mode == "intent_enhanced":
+            result = intent_enhanced_reformulation(claim)
+            pro_claim = result["reformulated_pro"]
+            con_claim = result["reformulated_con"]
+            pro_result = run_single_agent(pro_claim, evidence)
+            con_result = run_single_agent(con_claim, evidence)
+            answer_map[example_id] = {
+                "intent": result["intent"],
+                "pro_claim": pro_claim,
+                "con_claim": con_claim,
+                "pro_result": pro_result,
+                "con_result": con_result
+            }
+
+        elif args.mode == "intent_enhanced_multi":
+            result = intent_enhanced_reformulation(claim)
+            pro_claim = result["reformulated_pro"]
+            con_claim = result["reformulated_con"]
+            pro_open = opening_pro(pro_claim, evidence)
+            con_open = opening_con(con_claim, evidence)
+            pro_rebut = rebuttal_pro(pro_claim, evidence, con_open)
+            con_rebut = rebuttal_con(con_claim, evidence, pro_open)
+            pro_close = closing_pro(pro_claim, evidence)
+            con_close = closing_con(con_claim, evidence)
+            final_result = judge_final_verdict(
+                claim, evidence,
+                pro_open, con_open,
+                pro_rebut, con_rebut,
+                pro_close, con_close
+            )
+            answer_map[example_id] = {
+                "intent": result["intent"],
+                "pro_claim": pro_claim,
+                "con_claim": con_claim,
+                "pro_opening": pro_open,
+                "con_opening": con_open,
+                "pro_rebuttal": pro_rebut,
+                "con_rebuttal": con_rebut,
+                "pro_closing": pro_close,
+                "con_closing": con_close,
+                "final_verdict": final_result
+            }
+
+        with open(output_file, "w") as f:
+            json.dump(answer_map, f, indent=2)
+
 if __name__ == "__main__":
     main()
