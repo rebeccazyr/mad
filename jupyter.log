@@ -1,0 +1,170 @@
+nohup: ignoring input
+[I 2025-07-22 09:29:24.302 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-07-22 09:29:24.307 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2025-07-22 09:29:24.308 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-07-22 09:29:24.308 LabApp] 'disable_check_xsrf' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2025-07-22 09:29:24.311 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-22 09:29:24.316 ServerApp] notebook | extension was successfully linked.
+[I 2025-07-22 09:29:24.494 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-22 09:29:24.506 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-22 09:29:24.508 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-07-22 09:29:24.509 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-07-22 09:29:24.511 LabApp] JupyterLab extension loaded from /home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-22 09:29:24.511 LabApp] JupyterLab application directory is /home/yirui/miniconda3/envs/llama3/share/jupyter/lab
+[I 2025-07-22 09:29:24.512 LabApp] Extension Manager is 'pypi'.
+[I 2025-07-22 09:29:24.547 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-22 09:29:24.551 ServerApp] notebook | extension was successfully loaded.
+[I 2025-07-22 09:29:24.552 ServerApp] Serving notebooks from local directory: /home/yirui/mad
+[I 2025-07-22 09:29:24.552 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2025-07-22 09:29:24.552 ServerApp] http://e24ec9ab64d8:8888/tree
+[I 2025-07-22 09:29:24.552 ServerApp]     http://127.0.0.1:8888/tree
+[I 2025-07-22 09:29:24.552 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-22 09:29:24.886 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-07-22 09:30:24.040 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.71ms
+[I 2025-07-22 09:30:30.969 ServerApp] User 502881d0331b4182870f866bd6ee780c logged in.
+[I 2025-07-22 09:30:30.970 ServerApp] 302 POST /login?next=%2Ftree%3F (502881d0331b4182870f866bd6ee780c@127.0.0.1) 35.49ms
+[W 2025-07-22 09:30:56.797 ServerApp] 404 GET /apple-touch-icon-precomposed.png (@127.0.0.1) 6.68ms referer=None
+[W 2025-07-22 09:30:56.798 ServerApp] 404 GET /apple-touch-icon.png (@127.0.0.1) 7.27ms referer=None
+[W 2025-07-22 09:30:56.799 ServerApp] 404 GET /apple-touch-icon-precomposed.png (@127.0.0.1) 7.60ms referer=None
+[W 2025-07-22 09:30:56.799 ServerApp] 404 GET /apple-touch-icon.png (@127.0.0.1) 7.91ms referer=None
+[I 2025-07-22 09:30:57.282 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.66ms
+[I 2025-07-22 09:30:57.331 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.62ms
+[I 2025-07-22 09:31:06.972 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.59ms
+[I 2025-07-22 09:32:29.089 JupyterNotebookApp] 302 GET /tree (@127.0.0.1) 0.67ms
+[I 2025-07-22 09:32:36.169 ServerApp] User f1aceb8a42d84e0f9f6e5c4add101266 logged in.
+[I 2025-07-22 09:32:36.170 ServerApp] 302 POST /login?next=%2Ftree (f1aceb8a42d84e0f9f6e5c4add101266@127.0.0.1) 28.15ms
+[W 2025-07-22 09:32:46.269 ServerApp] 400 GET /api/contents/claim_verification_pipeline.ipynb?type=notebook&content=1&hash=1&contentProviderId=undefined&1753176766020 (127.0.0.1): Unreadable Notebook: /home/yirui/mad/claim_verification_pipeline.ipynb NotJSONError("Notebook does not appear to be JSON: ' '")
+[W 2025-07-22 09:32:46.269 ServerApp] wrote error: 'Unreadable Notebook: /home/yirui/mad/claim_verification_pipeline.ipynb NotJSONError("Notebook does not appear to be JSON: \' \'")'
+    Traceback (most recent call last):
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 197, in ensure_async
+        result = await obj
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 922, in get
+        model = await self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 868, in _notebook_model
+        nb, bytes_content = await self._read_notebook(
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 497, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /home/yirui/mad/claim_verification_pipeline.ipynb NotJSONError("Notebook does not appear to be JSON: ' '"))
+[W 2025-07-22 09:32:46.272 ServerApp] 400 GET /api/contents/claim_verification_pipeline.ipynb?type=notebook&content=1&hash=1&contentProviderId=undefined&1753176766020 (f1aceb8a42d84e0f9f6e5c4add101266@127.0.0.1) 6.41ms referer=https://nr-side-maui-connections.trycloudflare.com/tree
+[W 2025-07-22 09:32:47.946 ServerApp] 400 GET /api/contents/claim_verification_pipeline.ipynb?type=notebook&content=1&hash=1&contentProviderId=undefined&1753176767801 (127.0.0.1): Unreadable Notebook: /home/yirui/mad/claim_verification_pipeline.ipynb NotJSONError("Notebook does not appear to be JSON: ' '")
+[W 2025-07-22 09:32:47.946 ServerApp] wrote error: 'Unreadable Notebook: /home/yirui/mad/claim_verification_pipeline.ipynb NotJSONError("Notebook does not appear to be JSON: \' \'")'
+    Traceback (most recent call last):
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 197, in ensure_async
+        result = await obj
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 922, in get
+        model = await self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 868, in _notebook_model
+        nb, bytes_content = await self._read_notebook(
+      File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 497, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /home/yirui/mad/claim_verification_pipeline.ipynb NotJSONError("Notebook does not appear to be JSON: ' '"))
+[W 2025-07-22 09:32:47.947 ServerApp] 400 GET /api/contents/claim_verification_pipeline.ipynb?type=notebook&content=1&hash=1&contentProviderId=undefined&1753176767801 (f1aceb8a42d84e0f9f6e5c4add101266@127.0.0.1) 5.68ms referer=https://nr-side-maui-connections.trycloudflare.com/notebooks/claim_verification_pipeline.ipynb
+[I 2025-07-22 09:32:56.379 ServerApp] Kernel started: ea529293-20b7-41e9-b600-19cf4b731f34
+[I 2025-07-22 09:32:56.888 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[W 2025-07-22 09:32:56.889 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-07-22 09:32:56.895 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-22 09:32:57.312 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-22 09:33:02.308 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-22 09:33:02.380 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-22 09:34:07.332 JupyterNotebookApp] 302 GET /tree (@127.0.0.1) 1.16ms
+[I 2025-07-22 09:34:13.820 ServerApp] User fe8cb6e393014a9dbe238b5d9794414d logged in.
+[I 2025-07-22 09:34:13.821 ServerApp] 302 POST /login?next=%2Ftree (fe8cb6e393014a9dbe238b5d9794414d@127.0.0.1) 57.55ms
+[I 2025-07-22 09:34:18.713 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-22 09:34:23.427 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-22 09:34:24.337 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-22 09:34:56.081 ServerApp] Saving file at /demo.ipynb
+[W 2025-07-22 09:43:24.339 ServerApp] WebSocket ping timeout after 119945 ms.
+[I 2025-07-22 13:46:56.904 ServerApp] Saving file at /demo.ipynb
+[I 2025-07-22 14:00:57.828 ServerApp] Saving file at /demo.ipynb
+[I 2025-07-22 16:55:29.363 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:d4f4bc82-9ba6-4f1b-b8dd-92f36d3a32e3
+[I 2025-07-22 16:55:30.662 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-22 16:55:30.662 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:d4f4bc82-9ba6-4f1b-b8dd-92f36d3a32e3
+[I 2025-07-22 18:04:06.797 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:d4f4bc82-9ba6-4f1b-b8dd-92f36d3a32e3
+[I 2025-07-22 18:04:07.868 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-22 18:04:07.868 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:d4f4bc82-9ba6-4f1b-b8dd-92f36d3a32e3
+[W 2025-07-22 21:02:07.871 ServerApp] WebSocket ping timeout after 119953 ms.
+[I 2025-07-22 21:02:12.874 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:d4f4bc82-9ba6-4f1b-b8dd-92f36d3a32e3
+[I 2025-07-23 06:57:31.420 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-23 06:57:31.573 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:adaaa03a-307c-4afc-b29c-7a2dadbec7ed
+[I 2025-07-23 06:57:31.740 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-23 12:45:37.526 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-24 14:15:53.953 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-24 14:15:53.953 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-24 15:58:53.955 ServerApp] WebSocket ping timeout after 119984 ms.
+[I 2025-07-24 15:58:58.959 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-24 15:59:05.838 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-24 15:59:05.838 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-24 17:57:06.651 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-24 17:57:57.659 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-24 17:57:57.660 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-24 19:25:40.151 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-24 19:25:40.435 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-24 19:25:40.435 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-24 19:27:10.438 ServerApp] WebSocket ping timeout after 90002 ms.
+[I 2025-07-24 19:27:15.441 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-25 01:42:53.232 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-25 01:42:53.233 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-25 01:53:05.368 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-07-25 01:53:05.368 ServerApp] kernel ea529293-20b7-41e9-b600-19cf4b731f34 restarted
+[I 2025-07-25 01:53:05.440 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-25 01:53:05.565 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-25 01:53:05.566 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-25 08:23:35.994 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-25 08:23:36.388 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-25 08:23:36.388 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-25 08:25:06.391 ServerApp] WebSocket ping timeout after 90003 ms.
+[I 2025-07-25 08:25:11.393 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-25 11:51:45.977 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-25 11:51:45.978 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-25 23:37:45.979 ServerApp] WebSocket ping timeout after 119981 ms.
+[I 2025-07-25 23:37:50.982 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-26 05:23:38.578 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-26 05:23:38.578 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-26 17:22:59.145 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-26 17:22:59.672 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-26 17:22:59.672 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-26 17:24:29.673 ServerApp] WebSocket ping timeout after 90001 ms.
+[I 2025-07-26 17:24:34.678 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-26 19:16:54.770 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-26 19:16:54.771 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-27 01:09:37.103 ServerApp] 403 POST /api/shutdown (@172.17.0.49) 2.11ms referer=None
+[W 2025-07-27 07:15:24.772 ServerApp] WebSocket ping timeout after 119948 ms.
+[I 2025-07-27 07:15:29.774 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-27 09:12:33.253 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-27 09:12:33.253 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-27 10:53:45.552 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-27 10:53:46.719 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-27 10:53:46.720 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-27 10:55:16.725 ServerApp] WebSocket ping timeout after 90002 ms.
+[I 2025-07-27 10:55:21.726 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-27 14:02:10.931 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-27 14:02:10.932 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-27 21:01:59.516 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-27 21:01:59.953 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-27 21:01:59.954 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-27 21:03:29.955 ServerApp] WebSocket ping timeout after 90001 ms.
+[I 2025-07-27 21:03:34.960 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-28 04:22:57.635 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-28 04:22:57.635 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-28 16:23:57.637 ServerApp] WebSocket ping timeout after 119944 ms.
+[I 2025-07-28 16:24:02.638 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-28 16:41:47.875 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-28 16:41:47.876 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-28 17:53:40.342 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-28 17:53:40.745 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-28 17:53:40.746 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-28 17:55:10.746 ServerApp] WebSocket ping timeout after 90000 ms.
+[I 2025-07-28 17:55:15.749 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a

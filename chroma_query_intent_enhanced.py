@@ -5,14 +5,14 @@ from tqdm import tqdm
 import os
 
 # Initialize ChromaDB client
-chroma_client = ChromaClient(vector_name="evidence_bgebase", path="/home/yirui/mad/chroma/chroma_store/evidence_bgebase")
+chroma_client = ChromaClient(vector_name="evidence_bilingual_large", path="/home/yirui/mad/chroma/chroma_store")
 
 # Load test claims
-with open("test.json", "r") as f:
+with open("/home/yirui/mad/dataset/test_400.json", "r") as f:
     all_examples = json.load(f)
 
 # Output file path
-output_file = "intent_enhanced_retrieved_evidence.json"
+output_file = "/home/yirui/mad/bilin/intent_enhanced_bilingual_retrieved_each10_evidence.json"
 
 # Initialize output structure - load existing data if file exists
 if os.path.exists(output_file):

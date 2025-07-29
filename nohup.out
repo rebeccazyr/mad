@@ -1,0 +1,80 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/yirui/mad/chroma_query_intent_enhanced_with_keywords.py", line 2, in <module>
+    from agents.intent_word_enhanced_retrieval import intent_enhanced_reformulation
+  File "/home/yirui/mad/agents/intent_word_enhanced_retrieval.py", line 10, in <module>
+    tokenizer, model = load_model()
+  File "/home/yirui/mad/model/loader.py", line 6, in load_model
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 600, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 311, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4839, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5302, in _load_pretrained_model
+    _error_msgs, disk_offload_index, cpu_offload_index = load_shard_file(args)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 933, in load_shard_file
+    disk_offload_index, cpu_offload_index = _load_state_dict_into_meta_model(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 788, in _load_state_dict_into_meta_model
+    to_contiguous, casting_dtype = _infer_parameter_dtype(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 703, in _infer_parameter_dtype
+    old_param = model.get_parameter_or_buffer(param_name)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5735, in get_parameter_or_buffer
+    return self.get_parameter(target)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 787, in get_parameter
+    def get_parameter(self, target: str) -> "Parameter":
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yirui/mad/main.py", line 5, in <module>
+    from agents.single_agent import verify_claim
+  File "/home/yirui/mad/agents/single_agent.py", line 5, in <module>
+    tokenizer, model = load_model()
+  File "/home/yirui/mad/model/loader.py", line 6, in load_model
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 600, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 311, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4820, in from_pretrained
+    device_map = _get_device_map(model, device_map, max_memory, hf_quantizer, torch_dtype, keep_in_fp32_regex)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1431, in _get_device_map
+    inferred_max_memory = get_balanced_memory(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 960, in get_balanced_memory
+    max_memory = get_max_memory(max_memory)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 808, in get_max_memory
+    _ = torch.tensor([0], device=i)
+KeyboardInterrupt
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.35s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.25s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.21s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.20it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.01it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.24s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.34s/it]
+Traceback (most recent call last):
+  File "/home/yirui/mad/main.py", line 6, in <module>
+    from agents.multi_agents import (
+  File "/home/yirui/mad/agents/multi_agents.py", line 16, in <module>
+    tokenizer, model = load_model()
+  File "/home/yirui/mad/model/loader.py", line 6, in load_model
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 600, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 311, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4839, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5302, in _load_pretrained_model
+    _error_msgs, disk_offload_index, cpu_offload_index = load_shard_file(args)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 933, in load_shard_file
+    disk_offload_index, cpu_offload_index = _load_state_dict_into_meta_model(
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/yirui/miniconda3/envs/llama3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 810, in _load_state_dict_into_meta_model
+    param = param.to(casting_dtype)
+KeyboardInterrupt
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.17s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.16s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.15s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.14s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.16s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.15s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.14s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.15s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.15s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+usage: main.py [-h]
+               [--mode {single,multi,intent_enhanced_multi,intent_enhanced_single_sep,intent_enhanced_multi_sep}]
+main.py: error: argument --mode: invalid choice: 'mu' (choose from 'single', 'multi', 'intent_enhanced_multi', 'intent_enhanced_single_sep', 'intent_enhanced_multi_sep')

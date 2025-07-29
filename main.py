@@ -1,15 +1,33 @@
 import argparse
 import json
 from tqdm import tqdm
-
+import os
 from agents.single_agent import verify_claim
 from agents.multi_agents import (
     opening_pro, rebuttal_pro, closing_pro,
     opening_con, rebuttal_con, closing_con,
     judge_final_verdict
 )
+from agents.multi_agents_3p import (
+    opening_true, rebuttal_true, closing_true,
+    opening_halftrue, rebuttal_halftrue, closing_halftrue,
+    opening_false, rebuttal_false, closing_false,
+    judge_final_verdict as judge_final_verdict_3p
+)
+from agents.multi_agent_people import (
+    opening_politician, rebuttal_politician, closing_politician,
+    opening_scientist, rebuttal_scientist, closing_scientist,
+    judge_final_verdict as judge_final_verdict_people
+)
 from agents.intent_enhanced_retrieval import intent_enhanced_reformulation
-
+from agents.single_agent_intent import infer_intent, final_verdict
+# from agents.multi_agents_role import (
+#     infer_intent_and_roles,
+#     opening_pro, rebuttal_pro, closing_pro,
+#     opening_con, rebuttal_con, closing_con,
+#     judge_final_verdict
+# )
+import torch
 def get_example():
     claim = "\"You know what the biggest lie is, is that restaurants are spreaders of COVID. There's no science for that.\""
     evidence_list = [
@@ -51,21 +69,77 @@ def run_multi_agent(claim, evidence):
     )
     return pro_open, con_open, pro_rebut, con_rebut, pro_close, con_close, final_result
 
+def run_multi_agent_3p(claim, evidence):
+    print("\n=== Running Three-Agent Debate (True, Half-True, False) ===")
+    # Opening statements
+    true_open = opening_true(claim, evidence)
+    halftrue_open = opening_halftrue(claim, evidence)
+    false_open = opening_false(claim, evidence)
+    
+    # Rebuttals
+    true_rebut = rebuttal_true(claim, evidence, halftrue_open, false_open)
+    halftrue_rebut = rebuttal_halftrue(claim, evidence, true_open, false_open)
+    false_rebut = rebuttal_false(claim, evidence, true_open, halftrue_open)
+    
+    # Closing statements
+    true_close = closing_true(claim, evidence)
+    halftrue_close = closing_halftrue(claim, evidence)
+    false_close = closing_false(claim, evidence)
+    
+    # Final judge verdict
+    final_result = judge_final_verdict_3p(
+        claim, evidence,
+        true_open, halftrue_open, false_open,
+        true_rebut, halftrue_rebut, false_rebut,
+        true_close, halftrue_close, false_close
+    )
+    return (true_open, halftrue_open, false_open, 
+            true_rebut, halftrue_rebut, false_rebut,
+            true_close, halftrue_close, false_close, final_result)
+
+def run_multi_agent_people(claim, evidence):
+    print("\n=== Running Multi-Agent People Debate (Politician vs Scientist) ===")
+    # Opening statements
+    pol_open = opening_politician(claim, evidence)
+    sci_open = opening_scientist(claim, evidence)
+    
+    # Rebuttals
+    pol_rebut = rebuttal_politician(claim, evidence, sci_open)
+    sci_rebut = rebuttal_scientist(claim, evidence, pol_open)
+    
+    # Closing statements
+    pol_close = closing_politician(claim, evidence)
+    sci_close = closing_scientist(claim, evidence)
+    
+    # Final judge verdict
+    final_result = judge_final_verdict_people(
+        claim, evidence,
+        pol_open, sci_open,
+        pol_rebut, sci_rebut,
+        pol_close, sci_close
+    )
+    return pol_open, sci_open, pol_rebut, sci_rebut, pol_close, sci_close, final_result
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--mode",
-        choices=["single", "multi", "intent_enhanced", "intent_enhanced_multi"],
+        choices=["single", "multi", "multi_role", "intent_enhanced_multi", "intent_enhanced_single_sep", "intent_enhanced_multi_sep", "multi_3p", "multi_people"],
         default="single",
         help="Choose inference mode."
     )
     args = parser.parse_args()
 
-    with open("dataset/test_400.json", "r") as f:
+    with open("/home/yirui/mad/ids_400.json", "r") as f:
+        ids_400 = json.load(f)
+
+    with open("/home/yirui/mad/intent_enhanced_con_pro_bge_large_400_top20_by_score_with_evi.json", "r") as f:
         all_examples = json.load(f)
+    
+    all_examples = {k: v for k, v in all_examples.items() if k in ids_400}
 
     # Choose output file
-    output_file = f"400_answer_map_{args.mode}.json"
+    output_file = os.path.join("bilin", f"400_answer_map_bge_con_pro_noid_{args.mode}.json")
 
     try:
         with open(output_file, "r") as f:
@@ -73,17 +147,59 @@ def main():
     except FileNotFoundError:
         answer_map = {}
 
-    for example in tqdm(all_examples, desc=f"Processing examples ({args.mode})"):
-        example_id = example["example_id"]
+    for example_id, example in tqdm(all_examples.items(), desc=f"Processing examples ({args.mode})"):
         if example_id in answer_map:
             continue
 
         claim = example["claim"]
-        evidence = example["evidence"]
+        # evidence = example["evidence"]
+        evidence = example["evidence_full_text"]
+        # evidence_pro_text = example["evidence_pro_text"]
+        # evidence_con_text = example["evidence_con_text"]
 
         if args.mode == "single":
             result = run_single_agent(claim, evidence)
             answer_map[example_id] = [result]
+
+        elif args.mode == "multi_role":
+            # Step 1: 推理 intent 和角色
+            intent, support_role, oppose_role = infer_intent_and_roles(claim)
+
+            # Step 2: Opening statements
+            pro_open = opening_pro(claim, evidence, role=support_role)
+            con_open = opening_con(claim, evidence, role=oppose_role)
+
+            # Step 3: Rebuttals
+            # pro_rebut = rebuttal_pro(claim, evidence, con_open)
+            # con_rebut = rebuttal_con(claim, evidence, pro_open)
+            pro_rebut = rebuttal_pro(claim, evidence, con_open, role=support_role)
+            con_rebut = rebuttal_con(claim, evidence, pro_open, role=oppose_role)
+
+            # Step 4: Closings
+            # pro_close = closing_pro(claim, evidence)
+            # con_close = closing_con(claim, evidence)
+            pro_close = closing_pro(claim, evidence, role=support_role)
+            con_close = closing_con(claim, evidence, role=oppose_role)
+
+            # Step 5: Judge verdict
+            final_result = judge_final_verdict(
+                claim, evidence,
+                pro_open, con_open,
+                pro_rebut, con_rebut,
+                pro_close, con_close
+            )
+            answer_map[example_id] = {
+                "intent": intent,
+                "support_role": support_role,
+                "oppose_role": oppose_role,
+                "pro_opening": pro_open,
+                "con_opening": con_open,
+                "pro_rebuttal": pro_rebut,
+                "con_rebuttal": con_rebut,
+                "pro_closing": pro_close,
+                "con_closing": con_close,
+                "final_verdict": final_result
+            }
 
         elif args.mode == "multi":
             pro_open, con_open, pro_rebut, con_rebut, pro_close, con_close, final_result = run_multi_agent(claim, evidence)
@@ -97,40 +213,15 @@ def main():
                 "final_verdict": final_result
             }
 
-        elif args.mode == "intent_enhanced":
-            result = intent_enhanced_reformulation(claim)
-            pro_claim = result["reformulated_pro"]
-            con_claim = result["reformulated_con"]
-            pro_result = run_single_agent(pro_claim, evidence)
-            con_result = run_single_agent(con_claim, evidence)
-            answer_map[example_id] = {
-                "intent": result["intent"],
-                "pro_claim": pro_claim,
-                "con_claim": con_claim,
-                "pro_result": pro_result,
-                "con_result": con_result
-            }
+        elif args.mode == "intent_enhanced_single_sep":
+            intent = infer_intent(claim)
+            result = final_verdict(claim, evidence, intent)
+            answer_map[example_id] = [result]
 
-        elif args.mode == "intent_enhanced_multi":
-            result = intent_enhanced_reformulation(claim)
-            pro_claim = result["reformulated_pro"]
-            con_claim = result["reformulated_con"]
-            pro_open = opening_pro(pro_claim, evidence)
-            con_open = opening_con(con_claim, evidence)
-            pro_rebut = rebuttal_pro(pro_claim, evidence, con_open)
-            con_rebut = rebuttal_con(con_claim, evidence, pro_open)
-            pro_close = closing_pro(pro_claim, evidence)
-            con_close = closing_con(con_claim, evidence)
-            final_result = judge_final_verdict(
-                claim, evidence,
-                pro_open, con_open,
-                pro_rebut, con_rebut,
-                pro_close, con_close
-            )
+        elif args.mode == "intent_enhanced_multi_sep":
+            evidence_transformed = f"### Pro-side Evidence:\n{evidence_pro_text}\n\n### Con-side Evidence:\n{evidence_con_text}"
+            pro_open, con_open, pro_rebut, con_rebut, pro_close, con_close, final_result = run_multi_agent(claim, evidence_transformed)
             answer_map[example_id] = {
-                "intent": result["intent"],
-                "pro_claim": pro_claim,
-                "con_claim": con_claim,
                 "pro_opening": pro_open,
                 "con_opening": con_open,
                 "pro_rebuttal": pro_rebut,
@@ -139,9 +230,41 @@ def main():
                 "con_closing": con_close,
                 "final_verdict": final_result
             }
-
+            
+        elif args.mode == "multi_3p":
+            (true_open, halftrue_open, false_open, 
+             true_rebut, halftrue_rebut, false_rebut,
+             true_close, halftrue_close, false_close, final_result) = run_multi_agent_3p(claim, evidence)
+            answer_map[example_id] = {
+                "true_opening": true_open,
+                "halftrue_opening": halftrue_open,
+                "false_opening": false_open,
+                "true_rebuttal": true_rebut,
+                "halftrue_rebuttal": halftrue_rebut,
+                "false_rebuttal": false_rebut,
+                "true_closing": true_close,
+                "halftrue_closing": halftrue_close,
+                "false_closing": false_close,
+                "final_verdict": final_result
+            }
+            
+        elif args.mode == "multi_people":
+            pol_open, sci_open, pol_rebut, sci_rebut, pol_close, sci_close, final_result = run_multi_agent_people(claim, evidence)
+            answer_map[example_id] = {
+                "politician_opening": pol_open,
+                "scientist_opening": sci_open,
+                "politician_rebuttal": pol_rebut,
+                "scientist_rebuttal": sci_rebut,
+                "politician_closing": pol_close,
+                "scientist_closing": sci_close,
+                "final_verdict": final_result
+            }
+            
         with open(output_file, "w") as f:
             json.dump(answer_map, f, indent=2)
 
 if __name__ == "__main__":
+    print("CUDA_VISIBLE_DEVICES =", os.environ.get("CUDA_VISIBLE_DEVICES"))
+    print(">> Using CUDA device:", torch.cuda.current_device())
+    print(">> Device name:", torch.cuda.get_device_name(torch.cuda.current_device()))
     main()

@@ -45,19 +45,19 @@ def intent_enhanced_reformulation(claim: str):
             - reformulated_pro
             - reformulated_con
     """
-    print(f"\n[Original Claim]: {claim}")
+    # print(f"\n[Original Claim]: {claim}")
 
     # Step 1: Infer Intent
     intent = infer_intent(claim)
-    print(f"[Inferred Intent]: {intent}")
+    # print(f"[Inferred Intent]: {intent}")
 
     # Step 2: Reformulate Pro Version
     reformulated_pro = reformulate_claim_pro(claim, intent)
-    print(f"[Pro Reformulated Claim]: {reformulated_pro}")
+    # print(f"[Pro Reformulated Claim]: {reformulated_pro}")
 
     # Step 3: Reformulate Con Version
     reformulated_con = reformulate_claim_con(claim, intent)
-    print(f"[Con Reformulated Claim]: {reformulated_con}")
+    # print(f"[Con Reformulated Claim]: {reformulated_con}")
 
     return {
         "intent": intent,

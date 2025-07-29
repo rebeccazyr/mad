@@ -2,12 +2,22 @@ import json
 from collections import defaultdict
 
 # File paths (replace with your actual file names if different)
-groundtruth_file = "./data/transformed_GT_200.json"
+groundtruth_file = "/home/yirui/mad/single/answer/transformed_GT_400.json"
 prediction_files = [
-    "./data/transformed_answer_map_retrived_evidence_single_200.json",
-    "./data/transformed_answer_map_retrived_evidence_multi_200.json",
-    "./data/transformed_answer_map_single_200.json",
-    "./data/transformed_answer_map_multi_200.json"
+    # "/home/yirui/mad/intent_enhanced/tras/400__sep_transformed_answer_map_single.json",
+    # "/home/yirui/mad/intent_enhanced/tras/400_sep_transformed_answer_map_multi.json",
+    # "/home/yirui/mad/bilin/trans/400_transformed_answer_map_cot_multi.json",
+    # "/home/yirui/mad/bilin/trans/400_transformed_answer_map_multi.json",
+    # "/home/yirui/mad/bilin/trans/400_answer_map_intent_cot_single.json"
+    # "/home/yirui/mad/intent_enhanced/tras/400_transformed_answer_map_multi.json",
+    # "/home/yirui/mad/bilin/trans/400_answer_map_bge_intent_noid_multi_role.json",
+    "/home/yirui/mad/bilin/trans/400_answer_map_bge_full_noid_multi_role.json",
+    "/home/yirui/mad/bilin/trans/400_answer_map_bge_con_only_noid_multi_role.json",
+    "/home/yirui/mad/bilin/trans/400_answer_map_bge_re_noid_multi_role.json",
+    "/home/yirui/mad/bilin/trans/400_answer_map_bge_con_pro_noid_multi_role.json",
+    "/home/yirui/mad/bilin/trans/400_answer_map_bilin_intent_enhanced_orin_multi_role.json",
+    "/home/yirui/mad/bilin/trans/400_answer_map_bge_con_pro_noid_multi.json",
+    "/home/yirui/mad/bilin/trans/400_answer_map_bge_con_pro_noid_multi_3p.json"
 ]
 
 def calculate_f1_score(precision, recall):
@@ -66,6 +76,8 @@ for pred_file in prediction_files:
             
             if groundtruth[key] == prediction[key]:
                 correct += 1
+            # else:
+            #     print(key)
             if groundtruth[key] == "HALF-TRUE":
                 half_true += 1
                 if groundtruth[key] == prediction[key]:

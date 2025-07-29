@@ -1,6 +1,6 @@
 from chroma import ChromaClient
 
-client = ChromaClient(vector_name="evidence_bgebase")
+client = ChromaClient(vector_name="evidence_bilingual_large", path="/home/yirui/mad/chroma/chroma_store")
 data = client.collection.get()
 print("data length of chromadb", len(data['ids']))
 

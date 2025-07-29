@@ -1,7 +1,7 @@
 # agents/multi_agents.py
 
 from model.loader import load_model
-from prompts.templates import (
+from prompts.templates2 import (
     get_system_prompt,
     user_prompt_opening_pro,
     user_prompt_rebuttal_pro,

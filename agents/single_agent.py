@@ -5,7 +5,7 @@ from prompts.templates import system_prompt_fact_checker, user_prompt_single_age
 tokenizer, model = load_model()
 
 
-def verify_claim(claim, evidence, max_tokens=300):
+def verify_claim(claim, evidence):
     """
     Verify the veracity of a given claim using retrieved evidence.
     Returns the model's classification and explanation.
@@ -21,7 +21,6 @@ def verify_claim(claim, evidence, max_tokens=300):
     # Run model inference
     outputs = model.generate(
         **inputs,
-        max_new_tokens=max_tokens,
         do_sample=False,
         temperature=0.7,
         eos_token_id=tokenizer.eos_token_id
