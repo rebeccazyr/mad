@@ -20,11 +20,11 @@ def evaluate_all(result_dict, gt_dict):
     common_keys = [key for key in gt_dict.keys() if key in result_dict]
     print(len(common_keys))
     for key in common_keys:
-        pred_ids = result_dict[key]
-        true_ids = gt_dict[key]
+        pred_ids = result_dict[key]["top_20_evidences_ids"]
+        true_ids = gt_dict[key]["top_20_evidences"]
         
         precision, recall, f1 = compute_metrics(pred_ids, true_ids)
-        # print(f"Key: {key}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1: {f1:.4f}")
+        print(f"Key: {key}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1: {f1:.4f}")
         all_precisions.append(precision)
         all_recalls.append(recall)
         all_f1s.append(f1)
@@ -36,9 +36,9 @@ def evaluate_all(result_dict, gt_dict):
     return macro_precision, macro_recall, macro_f1
 
 import json
-with open("intent_enhanced_400_retrieved_simple_20_ranked_each_evidence_with_keywords_points_score_merged_ids.json", "r") as f:
+with open("/home/yirui/mad/retrieved_evidence_bgebase_intent_enhanced.json", "r") as f:
     result_dict = json.load(f)
-with open("/home/yirui/mad/chroma/evidence_map.json") as f:
+with open("/home/yirui/mad/intent_enhanced_con_pro_bge_large_400_top20_by_score.json") as f:
     gt_dict = json.load(f)
 
 macro_precision, macro_recall, macro_f1 = evaluate_all(result_dict, gt_dict)

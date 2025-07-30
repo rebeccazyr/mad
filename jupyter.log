@@ -170,3 +170,8 @@ nohup: ignoring input
 [I 2025-07-28 17:55:15.749 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
 [I 2025-07-29 05:50:54.765 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
 [I 2025-07-29 05:50:54.765 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-29 05:53:16.610 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[I 2025-07-29 05:53:16.744 ServerApp] Connecting to kernel ea529293-20b7-41e9-b600-19cf4b731f34.
+[I 2025-07-29 05:53:16.744 ServerApp] Restoring connection for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a
+[W 2025-07-29 05:54:46.748 ServerApp] WebSocket ping timeout after 90003 ms.
+[I 2025-07-29 05:54:51.750 ServerApp] Starting buffering for ea529293-20b7-41e9-b600-19cf4b731f34:8a1f6f7f-d294-4632-aca7-2f6b14a3bc5a

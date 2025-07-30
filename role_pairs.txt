@@ -1,0 +1,1200 @@
+SUPPORTING_ROLE: Immigration reform advocates
+OPPOSING_ROLE: Anti-immigration activists and organizations, such as the Federation for American Immigration Reform (FAIR) and the Center for Immigration Studies (CIS)
+
+SUPPORTING_ROLE: Environmental advocacy groups
+OPPOSING_ROLE: Agricultural industry associations
+
+SUPPORTING_ROLE: Climate change activists and environmental organizations
+OPPOSING_ROLE: Republican Party and fossil fuel industry executives
+
+SUPPORTING_ROLE: Climate change activists
+OPPOSING_ROLE: Coal mining industry executives
+
+SUPPORTING_ROLE: Conservative Christians
+OPPOSING_ROLE: LGBTQ+ advocacy organizations
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive policy organizations and advocacy groups, such as the Center for American Progress or the AFL-CIO.
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Small business owners and entrepreneurs in the dairy industry
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Oil industry executives and Republican politicians
+
+SUPPORTING_ROLE: Community organizers in New Orleans
+OPPOSING_ROLE: Law enforcement unions and police advocacy groups
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: White nationalists
+OPPOSING_ROLE: Muslim advocacy groups
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Evangelical Christians
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: Progressive activists and civil liberties organizations (e.g., ACLU, NAACP)
+OPPOSING_ROLE: Conservative politicians and law enforcement organizations (e.g., NRA, Fraternal Order of Police)
+
+SUPPORTING_ROLE: Immigration rights advocates
+OPPOSING_ROLE: Anti-immigration nationalists
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: Education advocacy groups
+OPPOSING_ROLE: Political action committees supporting conservative candidates
+
+SUPPORTING_ROLE: Progressive policymakers
+OPPOSING_ROLE: Conservative think tank analysts
+
+SUPPORTING_ROLE: Venezuelan expatriate communities and human rights organizations
+OPPOSING_ROLE: US law enforcement agencies and border control advocates
+
+SUPPORTING_ROLE: Left-leaning intellectuals and academics
+OPPOSING_ROLE: Conservative media outlets and talk radio hosts
+
+SUPPORTING_ROLE: Medicare advocacy groups
+OPPOSING_ROLE: Pharmaceutical industry executives
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Environmental advocacy groups, such as the Sierra Club or the Natural Resources Defense Council
+OPPOSING_ROLE: Automotive industry associations, such as the Alliance of Automobile Manufacturers or the American Automobile Association (AAA)
+
+SUPPORTING_ROLE: Keynesian economists
+OPPOSING_ROLE: Monetarist economists
+
+SUPPORTING_ROLE: Climate scientists and researchers
+OPPOSING_ROLE: Conservative think tanks and libertarians
+
+SUPPORTING_ROLE: Gun control advocacy groups
+OPPOSING_ROLE: National Rifle Association (NRA) members and gun rights activists
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, World Health Organization)
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Public Health Advocacy Groups (e.g., American Public Health Association, American Medical Association)
+
+SUPPORTING_ROLE: Veterans' advocacy groups
+OPPOSING_ROLE: Progressive Democrats and liberal think tanks, such as the Center for American Progress (CAP) and the American Civil Liberties Union (ACLU)
+
+SUPPORTING_ROLE: Immigration rights advocates
+OPPOSING_ROLE: Border patrol agents' unions
+
+SUPPORTING_ROLE: Libertarians
+OPPOSING_ROLE: Keynesian economists
+
+SUPPORTING_ROLE: LGBTQ+ advocacy organizations
+OPPOSING_ROLE: Conservative Christian groups and organizations that prioritize traditional gender roles and family values.
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative think tanks and advocacy groups for seniors and retirees
+
+SUPPORTING_ROLE: Anti-abortion activists
+OPPOSING_ROLE: Reproductive rights advocates and organizations, such as Planned Parenthood itself.
+
+SUPPORTING_ROLE: Fiscal conservatives
+OPPOSING_ROLE: Progressive economists and policymakers
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive healthcare organizations and advocacy groups
+
+SUPPORTING_ROLE: Women's reproductive rights advocates
+OPPOSING_ROLE: Anti-abortion activists within the Christian Right movement
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Progressive parents' advocacy groups
+OPPOSING_ROLE: Conservative family values organizations
+
+SUPPORTING_ROLE: Conservative think tanks
+OPPOSING_ROLE: Labor unions and progressive advocacy groups
+
+SUPPORTING_ROLE: Climate change mitigation advocates
+OPPOSING_ROLE: Pro-development business organizations
+
+SUPPORTING_ROLE: Cryptocurrency entrepreneurs and investors
+OPPOSING_ROLE: National security experts and policymakers in the US government
+
+SUPPORTING_ROLE: Economic justice advocates
+OPPOSING_ROLE: Conservative think tanks and business organizations
+
+SUPPORTING_ROLE: Democratic Party activists and progressive organizations
+OPPOSING_ROLE: Republican Party officials and conservative advocacy groups
+
+SUPPORTING_ROLE: Evangelical Christians
+OPPOSING_ROLE: Secular humanists and skeptics of religious interpretations of natural disasters
+
+SUPPORTING_ROLE: Education advocacy groups
+OPPOSING_ROLE: Fiscal conservatives in the Illinois state government
+
+SUPPORTING_ROLE: Anti-abortion rights activists
+OPPOSING_ROLE: Feminist organizations and reproductive rights advocates
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Conservative think tanks and policy organizations
+
+SUPPORTING_ROLE: Social justice activists
+OPPOSING_ROLE: Conservative business leaders
+
+SUPPORTING_ROLE: Pro-choice advocacy groups
+OPPOSING_ROLE: Anti-abortion organizations |<|system|>
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive veterans' organizations and anti-war activists
+
+SUPPORTING_ROLE: Climate change activists
+OPPOSING_ROLE: Oil industry executives and Republican politicians
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Tea Party activists
+
+SUPPORTING_ROLE: Left-wing political parties and social justice organizations
+OPPOSING_ROLE: Right-wing political parties and conservative think tanks
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Pharmaceutical industry executives
+
+SUPPORTING_ROLE: Law enforcement unions
+OPPOSING_ROLE: Community organizers and social justice advocates
+
+SUPPORTING_ROLE: Anti-lockdown protesters
+OPPOSING_ROLE: Public health professionals and epidemiologists
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive civil rights organizations and labor unions
+
+SUPPORTING_ROLE: Rural advocacy groups
+OPPOSING_ROLE: Urban planning organizations and policymakers in Los Angeles and California
+
+SUPPORTING_ROLE: Retirees' advocacy groups
+OPPOSING_ROLE: Young professionals' associations
+
+SUPPORTING_ROLE: LGBTQ+ advocacy organizations
+OPPOSING_ROLE: Conservative religious groups, such as the Catholic Church or the Southern Baptist Convention.
+
+SUPPORTING_ROLE: Progressive healthcare advocates
+OPPOSING_ROLE: Pharmaceutical industry executives
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Women's reproductive rights advocates
+OPPOSING_ROLE: Conservative Christian organizations
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, Centers for Disease Control and Prevention)
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Pharmaceutical industry executives and lobby groups
+
+SUPPORTING_ROLE: QAnon adherents
+OPPOSING_ROLE: Election officials and voting rights organizations (e.g., League of Women Voters, NAACP)
+
+SUPPORTING_ROLE: Climate change activists
+OPPOSING_ROLE: Oil industry executives and conservative think tanks
+
+SUPPORTING_ROLE: Climate change activists
+OPPOSING_ROLE: Oil industry executives and trade unions representing workers in the oil and gas sector
+
+SUPPORTING_ROLE: Progressive economists and policymakers
+OPPOSING_ROLE: Fiscal conservatives and libertarians
+
+SUPPORTING_ROLE: Immigration rights advocates
+OPPOSING_ROLE: Anti-immigration groups like the Federation for American Immigration Reform (FAIR)
+
+SUPPORTING_ROLE: Human rights organizations
+OPPOSING_ROLE: National security hawks
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Climate justice advocates
+OPPOSING_ROLE: Conservative think tanks and policymakers
+
+SUPPORTING_ROLE: Immigration rights advocates
+OPPOSING_ROLE: Anti-immigration think tanks
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Immigrant rights advocates
+OPPOSING_ROLE: Law enforcement unions
+
+SUPPORTING_ROLE: Democratic Party politicians and progressive advocacy groups
+OPPOSING_ROLE: Republican Party politicians and conservative think tanks
+
+SUPPORTING_ROLE: Right-wing politicians and anti-immigration advocacy groups
+OPPOSING_ROLE: Progressive Democrats and immigrant rights organizations
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive education organizations and civil rights groups
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive educators and civil rights organizations
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Democratic Party and its affiliated organizations, such as the Democratic National Committee and the Congressional Progressive Caucus.
+
+SUPPORTING_ROLE: Progressive fact-checking organizations
+OPPOSING_ROLE: Conservative media outlets and bloggers
+
+SUPPORTING_ROLE: Climate change activists
+OPPOSING_ROLE: Oil industry executives and Republican politicians
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive housing rights organizations and community activists
+
+SUPPORTING_ROLE: Fiscal conservatives
+OPPOSING_ROLE: Progressive policymakers and advocacy groups focused on social welfare and economic equality.
+
+SUPPORTING_ROLE: Democratic Party politicians and their allies
+OPPOSING_ROLE: Republican Party politicians and their allies
+
+SUPPORTING_ROLE: Anti-imperialist left-wing activists
+OPPOSING_ROLE: Pro-military and national security hawks in the Republican Party
+
+SUPPORTING_ROLE: Democratic Socialists
+OPPOSING_ROLE: Republican Party leaders
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive economic policy experts and labor unions
+
+SUPPORTING_ROLE: Conservative political operatives
+OPPOSING_ROLE: Election integrity advocates and voting rights organizations (e.g., League of Women Voters, ACLU)
+
+SUPPORTING_ROLE: Environmental advocacy groups, such as the Sierra Club or the League of Conservation Voters
+OPPOSING_ROLE: Republican Party officials, such as the Florida Republican Party or the National Republican Congressional Committee
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Law enforcement officials and drug enforcement agencies
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Anti-vaccination activists
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Pharmaceutical industry executives
+
+SUPPORTING_ROLE: Progressive politicians and advocacy groups
+OPPOSING_ROLE: Conservative politicians and business associations
+
+SUPPORTING_ROLE: Democratic Socialists of America
+OPPOSING_ROLE: National Association of Manufacturers
+
+SUPPORTING_ROLE: Conservative think tanks
+OPPOSING_ROLE: Progressive advocacy groups for healthcare access and social justice
+
+SUPPORTING_ROLE: QAnon adherents
+OPPOSING_ROLE: Anti-fascist activists and left-wing organizations, such as the Southern Poverty Law Center and the Anti-Defamation League.
+
+SUPPORTING_ROLE: Canadian Football League (CFL) fans and historians
+OPPOSING_ROLE: National Football League (NFL) executives and historians
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Democratic Party and progressive organizations, such as the American Civil Liberties Union (ACLU) and the Center for American Progress (CAP)
+
+SUPPORTING_ROLE: Pro-Palestinian advocacy groups
+OPPOSING_ROLE: Pro-Israel lobby groups and organizations, such as the American Israel Public Affairs Committee (AIPAC) and the Zionist Organization of America (ZOA)
+
+SUPPORTING_ROLE: Conservative politicians and law-and-order advocates
+OPPOSING_ROLE: Progressive criminal justice reform advocates and social justice activists
+
+SUPPORTING_ROLE: LGBTQ+ advocacy organizations
+OPPOSING_ROLE: Conservative religious groups
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Anti-vaccination activists
+
+SUPPORTING_ROLE: Hispanic advocacy groups
+OPPOSING_ROLE: Anti-immigration organizations
+
+SUPPORTING_ROLE: Anti-immigration advocacy groups
+OPPOSING_ROLE: Human rights organizations and advocacy groups for migrant rights
+
+SUPPORTING_ROLE: Democratic Party operatives
+OPPOSING_ROLE: Republican Party officials and conservative media outlets
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Anti-vaccination groups
+
+SUPPORTING_ROLE: Conspiracy theorists and anti-government activists
+OPPOSING_ROLE: Law enforcement organizations and mainstream media outlets
+
+SUPPORTING_ROLE: Mental health advocacy organizations
+OPPOSING_ROLE: Conservative think tanks and policymakers who advocate for limited government intervention in healthcare.
+
+SUPPORTING_ROLE: Pharmaceutical watchdog organizations
+OPPOSING_ROLE: Pharmaceutical industry executives and lobby groups
+
+SUPPORTING_ROLE: Government transparency advocates
+OPPOSING_ROLE: Government contractors and defense industry representatives
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Democratic Party and its affiliated organizations, such as the Democratic National Committee and the Democratic Congressional Campaign Committee.
+
+SUPPORTING_ROLE: Conspiracy theorists and anti-government activists
+OPPOSING_ROLE: Scientific community and public health organizations
+
+SUPPORTING_ROLE: Anti-vaccination advocates
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: Conservative media outlets
+OPPOSING_ROLE: Black Lives Matter activists
+
+SUPPORTING_ROLE: Autism advocacy organizations
+OPPOSING_ROLE: Vaccine skeptics and anti-vaccination groups
+
+SUPPORTING_ROLE: Disney shareholders and investors
+OPPOSING_ROLE: Disney employees and labor unions
+
+SUPPORTING_ROLE: LGBTQ+ advocacy organizations
+OPPOSING_ROLE: Conservative Christian groups
+
+SUPPORTING_ROLE: Nassau County Democratic Party
+OPPOSING_ROLE: Nassau County Republican Party |<|system|>
+
+SUPPORTING_ROLE: Voter advocacy groups
+OPPOSING_ROLE: Election integrity advocates
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive advocacy organizations and labor unions
+
+SUPPORTING_ROLE: Reproductive rights advocates
+OPPOSING_ROLE: Anti-abortion activists
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Democratic Party and progressive organizations, such as the ACLU and MoveOn.org.
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, World Health Organization)
+
+SUPPORTING_ROLE: Labor unions
+OPPOSING_ROLE: Small business owners and entrepreneurs
+
+SUPPORTING_ROLE: Reproductive rights activists
+OPPOSING_ROLE: Anti-abortion advocacy groups
+
+SUPPORTING_ROLE: Progressive economists and policymakers
+OPPOSING_ROLE: Conservative think tanks and business organizations
+
+SUPPORTING_ROLE: Democratic Socialists
+OPPOSING_ROLE: Republican Party members and affiliates
+
+SUPPORTING_ROLE: Progressive educators
+OPPOSING_ROLE: Conservative think tanks
+
+SUPPORTING_ROLE: Climate change activists
+OPPOSING_ROLE: Republican Party politicians and their supporters
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Oil and gas industry executives
+
+SUPPORTING_ROLE: Black Lives Matter activists
+OPPOSING_ROLE: Tea Party advocates
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, Centers for Disease Control and Prevention)
+
+SUPPORTING_ROLE: Anti-immigration advocacy groups
+OPPOSING_ROLE: Human rights organizations and advocacy groups for migrant rights
+
+SUPPORTING_ROLE: Secular humanists and skeptics
+OPPOSING_ROLE: Fundamentalist religious organizations and conservative think tanks
+
+SUPPORTING_ROLE: Anti-immigration advocacy groups
+OPPOSING_ROLE: Civil rights organizations, such as the American Civil Liberties Union (ACLU) and the National Association for the Advancement of Colored People (NAACP)
+
+SUPPORTING_ROLE: Ukrainian nationalists
+OPPOSING_ROLE: Russian government officials and sympathizers
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Conservative think tanks
+
+SUPPORTING_ROLE: Democratic Socialists
+OPPOSING_ROLE: Federal Reserve Bankers' Association
+
+SUPPORTING_ROLE: Environmental organizations and advocacy groups
+OPPOSING_ROLE: Agricultural industry representatives and rural communities reliant on water-intensive farming practices
+
+SUPPORTING_ROLE: Conservative economists and politicians
+OPPOSING_ROLE: Progressive policymakers and labor unions
+
+SUPPORTING_ROLE: Anti-vaccination advocates
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: Latino advocacy groups
+OPPOSING_ROLE: Conservative think tanks and business organizations |<|system|>
+
+SUPPORTING_ROLE: Right-wing libertarians
+OPPOSING_ROLE: Progressive Democrats and civil rights organizations
+
+SUPPORTING_ROLE: Law enforcement unions
+OPPOSING_ROLE: Humanitarian aid organizations and international relations experts
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Anti-immigration advocacy groups
+
+SUPPORTING_ROLE: LGBTQ+ advocacy organizations
+OPPOSING_ROLE: Conservative religious groups, such as the Catholic Church or the Southern Baptist Convention.
+
+SUPPORTING_ROLE: Education reform advocates
+OPPOSING_ROLE: Teachers' unions
+
+SUPPORTING_ROLE: LGBTQ+ advocacy organizations
+OPPOSING_ROLE: Conservative Christian groups
+
+SUPPORTING_ROLE: Renewable energy advocates
+OPPOSING_ROLE: Texas oil and gas industry executives
+
+SUPPORTING_ROLE: Vaccine skeptics and anti-vaccination groups
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, American Public Health Association)
+
+SUPPORTING_ROLE: Evangelical Christians
+OPPOSING_ROLE: Secular Democrats
+
+SUPPORTING_ROLE: Creationist organizations
+OPPOSING_ROLE: Scientific organizations and institutions (e.g., National Academy of Sciences, American Association for the Advancement of Science)
+
+SUPPORTING_ROLE: Conservative advocacy groups
+OPPOSING_ROLE: Progressive legal organizations and advocacy groups for survivors of child sexual abuse and exploitation.
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: Climate justice activists
+OPPOSING_ROLE: Conservative think tanks and fossil fuel industry executives
+
+SUPPORTING_ROLE: Election integrity advocates
+OPPOSING_ROLE: Civil rights organizations, such as the NAACP or the League of United Latin American Citizens, which may argue that same-day voter registration is a crucial tool for increasing voter turnout and ensuring equal access to the ballot for marginalized communities.
+
+SUPPORTING_ROLE: Pro-choice advocacy groups
+OPPOSING_ROLE: Anti-abortion organizations and religious conservatives
+
+SUPPORTING_ROLE: Wisconsin Manufacturers and Commerce
+OPPOSING_ROLE: Wisconsin Education Association (WEA) and the Wisconsin AFL-CIO |<|>
+
+SUPPORTING_ROLE: Progressive economists
+OPPOSING_ROLE: Conservative think tank analysts
+
+SUPPORTING_ROLE: Renewable energy industry professionals
+OPPOSING_ROLE: Evangelical Christian organizations that prioritize biblical interpretations over environmental concerns
+
+SUPPORTING_ROLE: Pharmaceutical industry executives
+OPPOSING_ROLE: Progressive healthcare advocacy groups
+
+SUPPORTING_ROLE: Online shopping advocacy groups
+OPPOSING_ROLE: Pharmaceutical industry representatives
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Con
+
+SUPPORTING_ROLE: Local business owners and entrepreneurs
+OPPOSING_ROLE: Professional sports team owners and league administrators
+
+SUPPORTING_ROLE: LGBTQ+ advocacy groups
+OPPOSING_ROLE: Conservative Christian organizations
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Alternative medicine advocates
+OPPOSING_ROLE: Mainstream oncologists and medical professionals
+
+SUPPORTING_ROLE: Anti-racism activists and social justice organizations
+OPPOSING_ROLE: Genetic engineering companies and agricultural industry associations
+
+SUPPORTING_ROLE: Pro
+OPPOSING_ROLE: Con
+
+SUPPORTING_ROLE: Academic researchers in the field of education
+OPPOSING_ROLE: Conservative think tank analysts
+
+SUPPORTING_ROLE: Anti-consumerism activists
+OPPOSING_ROLE: Tourism industry representatives
+
+SUPPORTING_ROLE: Young urban voters
+OPPOSING_ROLE: Retirees and snowbirds (seasonal residents in Florida)
+
+SUPPORTING_ROLE: Pro-Israel advocacy groups
+OPPOSING_ROLE: Palestinian human rights organizations and advocacy groups
+
+SUPPORTING_ROLE: Democratic Party politicians and labor unions
+OPPOSING_ROLE: Republican Party politicians and anti-regulation advocacy groups
+
+SUPPORTING_ROLE: Feminist organizations and advocacy groups
+OPPOSING_ROLE: Conservative religious groups and anti-feminist organizations
+
+SUPPORTING_ROLE: Anti-vaccination advocates
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, American Public Health Association)
+
+SUPPORTING_ROLE: Emergency management officials
+OPPOSING_ROLE: Libertarians and advocates for minimal government intervention in economic affairs
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Pharmaceutical industry executives
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Low-income advocacy groups
+OPPOSING_ROLE: Conservative think tanks and policymakers promoting austerity measures
+
+SUPPORTING_ROLE: Anti-vaccination advocates
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: Ukrainian nationalists and anti-Russian groups
+OPPOSING_ROLE: Russian government officials and pro-Russian lobby groups
+
+SUPPORTING_ROLE: Political strategists and campaign managers
+OPPOSING_ROLE: Polling experts and data analysts
+
+SUPPORTING_ROLE: Ukrainian nationalists
+OPPOSING_ROLE: International drug policy reform advocates
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Country music fans who value artistic independence
+OPPOSING_ROLE: Corporate marketing executives who prioritize brand partnerships
+
+SUPPORTING_ROLE: Climate change scientists and researchers
+OPPOSING_ROLE: Conservative think tanks and libertarian organizations
+
+SUPPORTING_ROLE: Women's reproductive rights organizations
+OPPOSING_ROLE: Conservative Christian advocacy groups
+
+SUPPORTING_ROLE: Anti-war activists
+OPPOSING_ROLE: Military contractors and defense industry executives
+
+SUPPORTING_ROLE: International trade unions
+OPPOSING_ROLE: Conservative think tanks and advocacy groups focused on national security and border control.
+
+SUPPORTING_ROLE: Gun control advocates
+OPPOSING_ROLE: National Rifle Association (NRA) members and gun rights activists
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Conservative think tanks
+
+SUPPORTING_ROLE: Anti-immigration advocacy groups
+OPPOSING_ROLE: Human rights organizations and advocacy groups for migrant workers and refugees
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, World Health Organization)
+
+SUPPORTING_ROLE: Renewable energy advocates
+OPPOSING_ROLE: Fossil fuel industry executives
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Conservative think tanks and policymakers focused on economic growth and limited government intervention in healthcare.
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Law and Order Republicans
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Law enforcement unions
+
+SUPPORTING_ROLE: Environmental health advocates
+OPPOSING_ROLE: Water treatment industry professionals
+
+SUPPORTING_ROLE: Gun control advocacy groups
+OPPOSING_ROLE: National Rifle Association (NRA) members and gun rights activists
+
+SUPPORTING_ROLE: Progressive economists and policymakers
+OPPOSING_ROLE: Conservative think tanks and business associations
+
+SUPPORTING_ROLE: Human rights organizations
+OPPOSING_ROLE: Law enforcement unions
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Anti-vaccination activists
+
+SUPPORTING_ROLE: Conservative think tanks
+OPPOSING_ROLE: Progressive advocacy groups for low-income families
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive advocacy organizations and social justice movements
+
+SUPPORTING_ROLE: Sex offender advocacy groups
+OPPOSING_ROLE: Law enforcement organizations and victim advocacy groups
+
+SUPPORTING_ROLE: Feminist organizations and advocacy groups
+OPPOSING_ROLE: Conservative religious groups and anti-feminist organizations
+
+SUPPORTING_ROLE: Anti-immigration advocacy groups
+OPPOSING_ROLE: Human rights organizations and advocacy groups for social justice and racial equality
+
+SUPPORTING_ROLE: Progressive economists and policymakers
+OPPOSING_ROLE: Conservative think tanks and business organizations
+
+SUPPORTING_ROLE: Ukrainian nationalists
+OPPOSING_ROLE: Russian government officials and sympathizers
+
+SUPPORTING_ROLE: Libertarian think tanks
+OPPOSING_ROLE: Public health advocacy organizations
+
+SUPPORTING_ROLE: Election integrity advocates
+OPPOSING_ROLE: Republican Party officials and conservative think tanks
+
+SUPPORTING_ROLE: Conspiracy theorists
+OPPOSING_ROLE: Scientific community organizations (e.g., American Association for the Advancement of Science)
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Anti-immigration organizations
+
+SUPPORTING_ROLE: Undocumented immigrant advocacy groups
+OPPOSING_ROLE: Anti-immigration organizations like the Federation for American Immigration Reform (FAIR)
+
+SUPPORTING_ROLE: Government officials with clearance to access classified information
+OPPOSING_ROLE: Whistleblowers and transparency advocates
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, Centers for Disease Control and Prevention)
+
+SUPPORTING_ROLE: Voting rights activists
+OPPOSING_ROLE: Election officials and administrators
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: Feminist organizations and advocacy groups
+OPPOSING_ROLE: Conservative religious groups and anti-abortion organizations
+
+SUPPORTING_ROLE: Conservative Republicans
+OPPOSING_ROLE: Progressive Democrats
+
+SUPPORTING_ROLE: Chinese-American community organizations
+OPPOSING_ROLE: Human rights advocacy groups
+
+SUPPORTING_ROLE: Anti-war activists
+OPPOSING_ROLE: Neoconservative think tanks
+
+SUPPORTING_ROLE: Climate change activists
+OPPOSING_ROLE: Gas appliance manufacturers and distributors
+
+SUPPORTING_ROLE: Immigrant rights advocacy groups
+OPPOSING_ROLE: Anti-immigration think tanks
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Republican Party officials and conservative think tanks
+
+SUPPORTING_ROLE: Local government reform advocates
+OPPOSING_ROLE: Political party officials (specifically, the Republican Party)
+
+SUPPORTING_ROLE: Progressive criminal justice reform advocates
+OPPOSING_ROLE: Law and order conservatives
+
+SUPPORTING_ROLE: Wildlife conservation organizations
+OPPOSING_ROLE: Construction industry associations
+
+SUPPORTING_ROLE: Reproductive rights organizations (e.g., Planned Parenthood, NARAL Pro-Choice America)
+OPPOSING_ROLE: Anti-abortion advocacy groups (e.g., Susan B. Anthony List, National Right to Life Committee)
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Conservative think tanks
+
+SUPPORTING_ROLE: Democratic Party politicians and their supporters
+OPPOSING_ROLE: Republican Party politicians and their supporters
+
+SUPPORTING_ROLE: Law enforcement unions
+OPPOSING_ROLE: Community organizers and social justice advocates
+
+SUPPORTING_ROLE: Early childhood education advocates
+OPPOSING_ROLE: Fiscal conservatives |<|system|>
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Republican Party members and conservative think tanks
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Conservative think tanks
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Neoconservative Republicans
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Democratic Party and progressive organizations, such as the ACLU and MoveOn.org.
+
+SUPPORTING_ROLE: Progressive economists and labor unions
+OPPOSING_ROLE: Conservative think tanks and business associations
+
+SUPPORTING_ROLE: Kurdish nationalist organizations
+OPPOSING_ROLE: Turkish government officials and their supporters in the international community
+
+SUPPORTING_ROLE: Academic administrators and faculty at prestigious universities
+OPPOSING_ROLE: Online conspiracy theorists and anti-intellectual activists
+
+SUPPORTING_ROLE: Anti-nuclear activists and disarmament organizations
+OPPOSING_ROLE: Pro-nuclear energy industry advocates and some conservative politicians|>
+
+SUPPORTING_ROLE: LGBTQ+ advocacy organizations
+OPPOSING_ROLE: Conservative Christian groups
+
+SUPPORTING_ROLE: Military veterans' advocacy groups
+OPPOSING_ROLE: Military contractors and defense industry executives
+
+SUPPORTING_ROLE: Anti-abortion rights activists
+OPPOSING_ROLE: Women's reproductive rights advocates
+
+SUPPORTING_ROLE: Gun control advocacy groups
+OPPOSING_ROLE: National Rifle Association (NRA) members and gun rights activists
+
+SUPPORTING_ROLE: Evangelical Christians
+OPPOSING_ROLE: Secular humanists
+
+SUPPORTING_ROLE: Progressive economists and policymakers
+OPPOSING_ROLE: Conservative think tank analysts and business leaders
+
+SUPPORTING_ROLE: Labor unions
+OPPOSING_ROLE: Corporate executives and investors in industries that benefit from outsourcing and offshoring jobs.
+
+SUPPORTING_ROLE: Russian nationalists
+OPPOSING_ROLE: US military strategists and defense contractors
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Conservative Christians
+OPPOSING_ROLE: LGBTQ+ advocacy organizations and gender studies scholars
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Pharmaceutical industry executives
+
+SUPPORTING_ROLE: LGBTQ+ advocacy organizations
+OPPOSING_ROLE: Conservative Christian groups, such as the Family Research Council or the American Family Association.
+
+SUPPORTING_ROLE: Democratic Party officials and liberal advocacy groups
+OPPOSING_ROLE: Republican Party officials and conservative think tanks
+
+SUPPORTING_ROLE: Labor unions and farm cooperatives
+OPPOSING_ROLE: Large-scale agricultural corporations and libertarian think tanks
+
+SUPPORTING_ROLE: Reproductive rights advocates
+OPPOSING_ROLE: Religious fundamentalists
+
+SUPPORTING_ROLE: Democratic Socialists
+OPPOSING_ROLE: Catholic Church leaders
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Democratic Party and progressive advocacy groups, such as the ACLU and Planned Parenthood.
+
+SUPPORTING_ROLE: Gun control advocacy groups
+OPPOSING_ROLE: National Rifle Association (NRA) members and gun rights advocates
+
+SUPPORTING_ROLE: Civil rights organizations
+OPPOSING_ROLE: Conservative Christian groups
+
+SUPPORTING_ROLE: Labor unions and worker advocacy groups
+OPPOSING_ROLE: Law enforcement and anti-drug organizations
+
+SUPPORTING_ROLE: Climate change advocacy groups
+OPPOSING_ROLE: Conservative think tanks and energy industry associations
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Event organizers and promoters
+
+SUPPORTING_ROLE: Progressive policymakers
+OPPOSING_ROLE: Conservative think tank analysts
+
+SUPPORTING_ROLE: Climate-conscious urban planners and policymakers
+OPPOSING_ROLE: Free market libertarians and small business owners in the retail and hospitality sectors
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Republican Party officials and business leaders in the logistics and shipping industries.
+
+SUPPORTING_ROLE: Climate justice advocates
+OPPOSING_ROLE: Oil and gas industry workers' unions
+
+SUPPORTING_ROLE: Anti-lockdown protesters
+OPPOSING_ROLE: Public health professionals and epidemiologists
+
+SUPPORTING_ROLE: Gun control advocacy groups
+OPPOSING_ROLE: National Rifle Association (NRA) members and Second Amendment advocates
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Conservative economists
+OPPOSING_ROLE: Progressive policymakers
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Anti-immigration organizations
+
+SUPPORTING_ROLE: White supremacists
+OPPOSING_ROLE: Jewish advocacy organizations
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Conservative think tanks and advocacy organizations
+
+SUPPORTING_ROLE: Gut health advocates and alternative medicine practitioners
+OPPOSING_ROLE: Mainstream medical professionals and pharmaceutical companies
+
+SUPPORTING_ROLE: Puerto Rican diaspora organizations and advocacy groups
+OPPOSING_ROLE: Republican Party officials and conservative think tanks
+
+SUPPORTING_ROLE: Anti-imperialist economists and scholars
+OPPOSING_ROLE: Neoconservative think tanks and policymakers
+
+SUPPORTING_ROLE: Conservative economists and business owners
+OPPOSING_ROLE: Progressive labor unions and community organizers
+
+SUPPORTING_ROLE: Progressive policymakers and advocacy groups
+OPPOSING_ROLE: Conservative think tanks and business organizations
+
+SUPPORTING_ROLE: Military veterans' organizations
+OPPOSING_ROLE: Anti-war activists and pacifist groups
+
+SUPPORTING_ROLE: Police unions and law enforcement advocacy groups
+OPPOSING_ROLE: Progressive Democrats and anti-racism activists
+
+SUPPORTING_ROLE: Higher education administrators
+OPPOSING_ROLE: Conservative think tanks and advocacy groups
+
+SUPPORTING_ROLE: Anti-trafficking organizations and advocacy groups
+OPPOSING_ROLE: Prostitution rights advocates and sex worker organizations
+
+SUPPORTING_ROLE: Public health advocates
+OPPOSING_ROLE: Anti-vaccination activists
+
+SUPPORTING_ROLE: Budget-conscious consumers
+OPPOSING_ROLE: Luxury goods enthusiasts
+
+SUPPORTING_ROLE: Public health professionals and medical associations
+OPPOSING_ROLE: Anti-vaccination groups and libertarian think tanks
+
+SUPPORTING_ROLE: Labor unions
+OPPOSING_ROLE: Conservative think tanks
+
+SUPPORTING_ROLE: Conservative media outlets
+OPPOSING_ROLE: Progressive advocacy groups for government transparency and accountability
+
+SUPPORTING_ROLE: Criminal justice reform advocates
+OPPOSING_ROLE: Law enforcement unions
+
+SUPPORTING_ROLE: Social justice activists
+OPPOSING_ROLE: Conservative media outlets
+
+SUPPORTING_ROLE: Trump loyalists and conservative media outlets
+OPPOSING_ROLE: Democratic Party officials and liberal fact-checking organizations
+
+SUPPORTING_ROLE: Climate change advocacy groups
+OPPOSING_ROLE: Oil and gas industry executives and trade associations
+
+SUPPORTING_ROLE: Criminal justice reform advocates
+OPPOSING_ROLE: Law and order proponents in the Republican Party
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Online scammers and fraudsters
+OPPOSING_ROLE: Financial institutions and credit card companies
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Democratic Party and its affiliated organizations, such as the Democratic National Committee and the Democratic Congressional Campaign Committee.
+
+SUPPORTING_ROLE: Public health professionals and epidemiologists
+OPPOSING_ROLE: Anti-vaccination advocates and libertarian think tanks
+
+SUPPORTING_ROLE: Conspiracy theorists and anti-government activists
+OPPOSING_ROLE: Scientific community and fact-checking organizations
+
+SUPPORTING_ROLE: Investigative journalists and media outlets
+OPPOSING_ROLE: Conservative think tanks and political operatives
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Health insurance industry executives
+
+SUPPORTING_ROLE: Russian nationalists
+OPPOSING_ROLE: International human rights organizations
+
+SUPPORTING_ROLE: Democratic Party
+OPPOSING_ROLE: Catholic Church hierarchy
+
+SUPPORTING_ROLE: Pro-Palestinian advocacy groups
+OPPOSING_ROLE: Pro-Israel lobby groups and organizations supporting the Israeli government's policies.
+
+SUPPORTING_ROLE: Georgian farmers' associations
+OPPOSING_ROLE: Urban planners and architects advocating for sustainable urban development
+
+SUPPORTING_ROLE: Academic freedom advocates
+OPPOSING_ROLE: Conservative think tanks and advocacy groups
+
+SUPPORTING_ROLE: Election integrity advocates
+OPPOSING_ROLE: Political operatives affiliated with the opposing political party
+
+SUPPORTING_ROLE: Anti-immigration advocacy groups
+OPPOSING_ROLE: Human rights organizations and advocacy groups for migrant rights
+
+SUPPORTING_ROLE: Conservative economists and think tanks
+OPPOSING_ROLE: Progressive advocacy groups and labor unions
+
+SUPPORTING_ROLE: Russian government officials and propagandists
+OPPOSING_ROLE: Ukrainian diaspora organizations and human rights advocates
+
+SUPPORTING_ROLE: Law enforcement unions
+OPPOSING_ROLE: Harm reduction advocates and drug policy reform organizations
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, Centers for Disease Control and Prevention)
+
+SUPPORTING_ROLE: Conservative political operatives
+OPPOSING_ROLE: Election integrity advocates and voting rights organizations (e.g., League of Women Voters, NAACP)
+
+SUPPORTING_ROLE: Somali-American community organizations
+OPPOSING_ROLE: Right-wing nationalist groups, such as the Tea Party or the Proud Boys
+
+SUPPORTING_ROLE: Feminist organizations and advocacy groups
+OPPOSING_ROLE: Conservative Christian organizations and politicians
+
+SUPPORTING_ROLE: Conservative media outlets and right-wing pundits
+OPPOSING_ROLE: Public health professionals and medical organizations, such as the American Medical Association (AMA) or the Centers for Disease Control and Prevention (CDC)
+
+SUPPORTING_ROLE: UFO enthusiasts and conspiracy theorists
+OPPOSING_ROLE: Scientific skeptics and rationalists
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Catholic Church leaders
+
+SUPPORTING_ROLE: Conspiracy theorists and anti-government activists
+OPPOSING_ROLE: Law enforcement officials and mainstream media organizations
+
+SUPPORTING_ROLE: Gun control advocacy groups
+OPPOSING_ROLE: National Rifle Association (NRA) members and gun rights activists
+
+SUPPORTING_ROLE: Humanitarian organizations
+OPPOSING_ROLE: Border control advocates
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, World Health Organization)
+
+SUPPORTING_ROLE: Reproductive rights activists
+OPPOSING_ROLE: Evangelical Christians
+
+SUPPORTING_ROLE: Election integrity advocates
+OPPOSING_ROLE: Political party officials with a vested interest in maintaining the status quo
+
+SUPPORTING_ROLE: Neoliberal economists
+OPPOSING_ROLE: Progressive policymakers and labor unions
+
+SUPPORTING_ROLE: Environmental advocacy groups, such as the Sierra Club or the Natural Resources Defense Council
+OPPOSING_ROLE: Oil and gas industry trade associations, such as the American Petroleum Institute or the Independent Petroleum Association of America
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Conservative think tanks and advocacy organizations
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Conservative politicians and their supporters
+OPPOSING_ROLE: Progressive activists and liberal politicians
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Democratic Party and progressive organizations, such as the American Civil Liberties Union (ACLU) and MoveOn.org.
+
+SUPPORTING_ROLE: Ukrainian diaspora organizations
+OPPOSING_ROLE: Republican Party members and conservative think tanks
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Conspiracy theorists and anti-Semitic groups
+OPPOSING_ROLE: Mainstream historians and economists |<|system|>
+
+SUPPORTING_ROLE: Immigration rights advocates
+OPPOSING_ROLE: Anti-immigration organizations like the Federation for American Immigration Reform (FAIR)
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Progressive educators and child development specialists
+OPPOSING_ROLE: Conservative think tanks and libertarian advocacy groups
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Immigration reform advocates
+OPPOSING_ROLE: Border patrol agents' unions
+
+SUPPORTING_ROLE: Climate change activists
+OPPOSING_ROLE: Oil industry executives and trade associations
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Economic nationalists
+OPPOSING_ROLE: Labor unions and immigrant advocacy groups
+
+SUPPORTING_ROLE: Neoliberal economists
+OPPOSING_ROLE: Progressive economists and labor unions
+
+SUPPORTING_ROLE: Progressive economists and social justice advocates
+OPPOSING_ROLE: Conservative think tanks and business organizations
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Conservative think tanks and business associations
+
+SUPPORTING_ROLE: Russian nationalists and far-right groups
+OPPOSING_ROLE: Ukrainian diaspora organizations and liberal international human rights groups
+
+SUPPORTING_ROLE: Climate change activists and environmental organizations
+OPPOSING_ROLE: Oil industry executives and conservative think tanks
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: Gun control advocacy groups
+OPPOSING_ROLE: National Rifle Association (NRA) members and Second Amendment enthusiasts
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Free speech advocates
+OPPOSING_ROLE: Election integrity advocates
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: LGBTQ+ advocacy organizations
+OPPOSING_ROLE: Conservative Christian groups and organizations that prioritize traditional family values
+
+SUPPORTING_ROLE: Global health advocacy organizations
+OPPOSING_ROLE: Conservative think tanks and libertarian organizations
+
+SUPPORTING_ROLE: Anti-immigration advocacy groups
+OPPOSING_ROLE: Human rights organizations and advocacy groups for migrant rights
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Anti-immigration organizations
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative media outlets and think tanks
+
+SUPPORTING_ROLE: Republican Party
+OPPOSING_ROLE: Democratic Party and progressive organizations, such as the ACLU and MoveOn.org.
+
+SUPPORTING_ROLE: Ukrainian diaspora organizations and anti-corruption advocates
+OPPOSING_ROLE: Russian government officials and pro-Russian lobby groups in the United States
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Progressive disability rights organizations and advocacy groups
+
+SUPPORTING_ROLE: LGBTQ+ advocacy organizations
+OPPOSING_ROLE: Conservative Christian groups
+
+SUPPORTING_ROLE: Organic farming advocates
+OPPOSING_ROLE: Large-scale agricultural corporations
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Climate scientists and researchers
+OPPOSING_ROLE: Conservative think tanks and libertarian organizations
+
+SUPPORTING_ROLE: Conservative Christians
+OPPOSING_ROLE: LGBTQ+ advocacy organizations and medical professionals specializing in pediatric care.
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Infrastructure advocates
+OPPOSING_ROLE: Free market libertarians
+
+SUPPORTING_ROLE: Climate change activists
+OPPOSING_ROLE: Oil industry executives and Republican politicians
+
+SUPPORTING_ROLE: Environmental activists and progressive policymakers
+OPPOSING_ROLE: Conservative politicians and libertarian think tanks
+
+SUPPORTING_ROLE: Progressive advocacy groups
+OPPOSING_ROLE: Republican Party officials and conservative think tanks
+
+SUPPORTING_ROLE: Climate change activists
+OPPOSING_ROLE: Oil and gas industry executives
+
+SUPPORTING_ROLE: Social justice advocates
+OPPOSING_ROLE: Anti-Muslim extremist groups
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Organic farmers and local food advocates
+OPPOSING_ROLE: Large-scale industrial agricultural corporations and their trade associations
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: QAnon adherents
+OPPOSING_ROLE: Fact-checking organizations and mainstream media outlets
+
+SUPPORTING_ROLE: Conservative think tanks and advocacy groups
+OPPOSING_ROLE: Social justice organizations and civil rights groups
+
+SUPPORTING_ROLE: Pharmaceutical industry executives and lobbyists
+OPPOSING_ROLE: Progressive Democrats and healthcare advocacy groups
+
+SUPPORTING_ROLE: Maritime unions and labor organizations
+OPPOSING_ROLE: Insurance companies and risk management firms
+
+SUPPORTING_ROLE: Progressive economists and policymakers
+OPPOSING_ROLE: Real estate industry associations and advocacy groups
+
+SUPPORTING_ROLE: Pharmaceutical industry watchdogs
+OPPOSING_ROLE: Chinese government officials and trade associations
+
+SUPPORTING_ROLE: Progressive educators and teachers' unions
+OPPOSING_ROLE: Conservative think tanks and business leaders in the energy and manufacturing sectors
+
+SUPPORTING_ROLE: Progressive Democrats
+OPPOSING_ROLE: Conservative Republicans
+
+SUPPORTING_ROLE: Celebrity gossip bloggers
+OPPOSING_ROLE: Feminist advocacy groups
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations
+
+SUPPORTING_ROLE: Reproductive rights advocates
+OPPOSING_ROLE: Anti-abortion activists
+
+SUPPORTING_ROLE: Progressive labor unions
+OPPOSING_ROLE: Conservative business organizations
+
+SUPPORTING_ROLE: Anti-vaccination activists
+OPPOSING_ROLE: Public health professionals and medical organizations (e.g., American Medical Association, World Health Organization)
+

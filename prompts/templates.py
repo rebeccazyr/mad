@@ -395,31 +395,31 @@ Only output the reformulated claim directly, without any introductory phrases or
 
 Reformulated (Con) Claim:"""
 
-# def user_prompt_reformulate_pro(claim, intent):
-#     return f"""You support the following claim and want to restate it in a way that clearly reflects your agreement with its message.
+def user_prompt_reformulate_pro(claim, intent):
+    return f"""You support the following claim and want to restate it in a way that clearly reflects your agreement with its message.
 
-# Claim: "{claim}"
+Claim: "{claim}"
 
-# Inferred Intent: "{intent}"
+Inferred Intent: "{intent}"
 
-# Your task is to rephrase the claim using a positive, supporting tone that affirms the claim’s main idea.
+Your task is to rephrase the claim using a positive, supporting tone that affirms the claim’s main idea.
 
-# Only output the reformulated claim directly, without extra explanations.
+Only output the reformulated claim directly, without extra explanations.
 
-# Reformulated (Pro) Claim:"""
+Reformulated (Pro) Claim:"""
 
-# def user_prompt_reformulate_con(claim, intent):
-#     return f"""You oppose the following claim and want to restate it in a way that clearly reflects your disagreement with its message.
+def user_prompt_reformulate_con(claim, intent):
+    return f"""You oppose the following claim and want to restate it in a way that clearly reflects your disagreement with its message.
 
-# Claim: "{claim}"
+Claim: "{claim}"
 
-# Inferred Intent: "{intent}"
+Inferred Intent: "{intent}"
 
-# Your task is to rephrase the claim using a critical, opposing tone that challenges or rejects its main idea.
+Your task is to rephrase the claim using a critical, opposing tone that challenges or rejects its main idea.
 
-# Only output the reformulated claim directly, without extra explanations.
+Only output the reformulated claim directly, without extra explanations.
 
-# Reformulated (Con) Claim:"""
+Reformulated (Con) Claim:"""
 
 def user_prompt_extract_terms(claim):
     return f"""Extract the key specific terms from the following claim. 

@@ -2,7 +2,7 @@ import json
 import re
 
 # Load the input JSON file
-with open("/home/yirui/mad/bilin/400_answer_map_intent_enhanced_single_sep.json", "r") as f:
+with open("/home/yirui/mad/1.json", "r") as f:
     data = json.load(f)
 
 # Dictionary to store the mapping from example ID to verdict
@@ -37,5 +37,5 @@ for idx, (example_id, verdict_list) in enumerate(data.items()):
         id_to_verdict[example_id] = "UNKNOWN"
         
 # Optionally, write the result to an output file
-with open("/home/yirui/mad/bilin/trans/400_answer_map_intent_cot_single.json", "w") as f:
+with open("/home/yirui/mad/1t.json", "w") as f:
     json.dump(id_to_verdict, f, indent=2)

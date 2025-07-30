@@ -2,7 +2,7 @@ import json
 from collections import defaultdict
 
 # File paths (replace with your actual file names if different)
-groundtruth_file = "/home/yirui/mad/single/answer/transformed_GT_400.json"
+groundtruth_file = "/home/yirui/mad/train/data/GT_test_all.json"
 prediction_files = [
     # "/home/yirui/mad/intent_enhanced/tras/400__sep_transformed_answer_map_single.json",
     # "/home/yirui/mad/intent_enhanced/tras/400_sep_transformed_answer_map_multi.json",
@@ -11,13 +11,7 @@ prediction_files = [
     # "/home/yirui/mad/bilin/trans/400_answer_map_intent_cot_single.json"
     # "/home/yirui/mad/intent_enhanced/tras/400_transformed_answer_map_multi.json",
     # "/home/yirui/mad/bilin/trans/400_answer_map_bge_intent_noid_multi_role.json",
-    "/home/yirui/mad/bilin/trans/400_answer_map_bge_full_noid_multi_role.json",
-    "/home/yirui/mad/bilin/trans/400_answer_map_bge_con_only_noid_multi_role.json",
-    "/home/yirui/mad/bilin/trans/400_answer_map_bge_re_noid_multi_role.json",
-    "/home/yirui/mad/bilin/trans/400_answer_map_bge_con_pro_noid_multi_role.json",
-    "/home/yirui/mad/bilin/trans/400_answer_map_bilin_intent_enhanced_orin_multi_role.json",
-    "/home/yirui/mad/bilin/trans/400_answer_map_bge_con_pro_noid_multi.json",
-    "/home/yirui/mad/bilin/trans/400_answer_map_bge_con_pro_noid_multi_3p.json"
+    "/home/yirui/mad/1t.json"
 ]
 
 def calculate_f1_score(precision, recall):
